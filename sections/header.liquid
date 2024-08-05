@@ -373,7 +373,7 @@
         <ul class="nav mobile-site-nav">
           {% for link in linklists[section.settings.main_linklist].links %}
             <li class="mobile-site-nav__item">
-              <a href="{{ link.url }}" class="mobile-site-nav__link">
+              <a href="{{ link.url }}" class="mobile-site-nav__link gaegu-bold">
                 {{ link.title }}
               </a>
               {% if link.links != blank %}
@@ -559,7 +559,7 @@
               </li>
             {% else %}
               <li class="site-nav__item {% if link.active %}site-nav--active{% endif %}">
-                <a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a>
+                <a href="{{ link.url }}" class="site-nav__link gaegu-bold">{{ link.title }}</a>
               </li>
             {% endif %}
           {% endfor %}

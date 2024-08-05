@@ -180,6 +180,24 @@
 {% assign nav_font = settings.type_nav_font %}
 /* UPPERCASE SETTINGS */
 /* FONT WEIGHTS */
+.gaegu-bold {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gaegu-regular {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gaegu-light {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* BASE - COMMENTED SIZES FROM BASE SIZE OF 16 */
 /* HEADINGS - COMMENTED APPROX SIZES FROM H3 SIZE OF 34 */
 /* FOOTER FONTS */
@@ -4857,7 +4875,7 @@ main .accent-background + .shopify-section--with-padding {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -10139,7 +10157,7 @@ input[type=submit].btn--quicklook:not(.btn--plain),
     height: 100%;
     width: 100%;
     padding: 20px 0;
-    background-color: {{ mobile_menu_bck_color }};
+    background-color: white;
     color: {{ color_mobile_menu_text }};
     z-index: 999;
     overflow: scroll;
