@@ -1,0 +1,45 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "home_only_announcement_bar": false,
+        "announcement_bar_text": "🥳 Free shipping on orders over $50 🥳",
+        "announcement_bar_col": "#63dee5",
+        "announcement_bar_grad": "",
+        "announcement_text_col": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_width": 140,
+        "desktop_layout": "center",
+        "show_search_bar_desktop": true,
+        "show_search_bar_mobile": true,
+        "logo_position_mobile": "inline",
+        "dock_nav": true,
+        "cart_icon": "shopping-bag",
+        "main_linklist": "new-menu",
+        "show_country_selector": true,
+        "show_language_selector": true,
+        "show_messages": true,
+        "home_only_messages": false,
+        "slideshow_messages": false,
+        "message_1_text": "",
+        "message_1_url": "",
+        "message_2_text": "",
+        "message_2_url": "",
+        "message_3_text": "",
+        "message_3_url": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

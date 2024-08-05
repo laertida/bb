@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-1.jpg",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 70,
+            "overlay_title": "",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": false,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "slideshow_Fd3eag": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Lz7pmJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow-2-banner-1.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "align-left",
+            "overlay_position_x": 25,
+            "overlay_position_y": 65,
+            "overlay_title": "Discover the magic!",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Bilingual books and toys that authentically bridge cultures and lovingly inspire young minds through bilingual storytelling and imaginative play in English and Chinese.",
+            "enlarge_text": false,
+            "overlay_url_text_1": "Shop Now",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": false,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "image_UeDHxe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-1.jpg",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_Lz7pmJ",
+        "image_UeDHxe"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": false,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "image_with_text_BJA3qt": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image-with-text.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "WHY BITTY BAO?",
+        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.<\/p>",
+        "button_label": "More about our Values",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ff92c5",
+        "gradient_bg": ""
+      }
+    },
+    "scrolling-banner": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "scrolling-block-0": {
+          "type": "text",
+          "settings": {
+            "text": "FOR BITTY BABIES!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "scrolling-block-0"
+      ],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": true,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": ""
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "settings": {
+        "title": "OUR PRODUCTS",
+        "enlarge_title": false,
+        "collection_list": [
+          "individual-books",
+          "wooden-toys",
+          "accesories",
+          "apparel"
+        ],
+        "grid": 4
+      }
+    },
+    "video_HPxqwi": {
+      "type": "video",
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "color_overlay_bg": "#ff92c5",
+        "overlay_opacity": 65,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Bitty Bao Papercutting Art - Boba",
+        "overlay_text": "",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    },
+    "logo_list_iN8wqc": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fPaQDR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-list-1.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_rYkyrV": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-list-2.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_CYb4r4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-list-3.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_fPaQDR",
+        "logo_rYkyrV",
+        "logo_CYb4r4"
+      ],
+      "settings": {
+        "title": "Where we’ve been featured",
+        "color_bg": "#ffffff",
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "image_opacity": 75
+      }
+    },
+    "testimonials_8UW4MP": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_tfhVTr": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
+            "author": "Laura H."
+          }
+        },
+        "testimonial_czcyyz": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
+            "author": "Laura J."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_tfhVTr",
+        "testimonial_czcyyz"
+      ],
+      "settings": {
+        "title": "",
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffdf6a",
+        "gradient_bg": "",
+        "color_star": "#63dee5",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "circle_images": true
+      }
+    },
+    "1721709620a89748ab": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_h8jzDH": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow Our Journey",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_h8jzDH"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "slideshow_Fd3eag",
+    "image_with_text_BJA3qt",
+    "scrolling-banner",
+    "collection-list",
+    "video_HPxqwi",
+    "logo_list_iN8wqc",
+    "testimonials_8UW4MP",
+    "1721709620a89748ab"
+  ]
+}
