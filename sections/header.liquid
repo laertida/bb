@@ -29,7 +29,7 @@
   {%- endif -%}
 
   <!-- LOGO -->
-  <a href="{{ routes.root_url }}" itemprop="url" class="site-logo{% if section.settings.logo != blank %} site-header__logo-image{% endif %}">
+  <a href="{{ routes.root_url }}" itemprop="url" class="site-logo{% if section.settings.logo != blank %} site-header__logo-image{% endif %} mobile">
     <meta itemprop="name" content="{{ shop.name }}">
     {%- if section.settings.logo != blank -%}
       {%- capture img_size -%}{{ section.settings.logo_width | times: 2 }}x{%- endcapture -%}
@@ -558,9 +558,26 @@
                 {% endif %}
               </li>
             {% else %}
-              <li class="site-nav__item {% if link.active %}site-nav--active{% endif %}">
-                <a href="{{ link.url }}" class="site-nav__link gaegu-bold">{{ link.title }}</a>
-              </li>
+              {% if link.title == 'Home' %}
+                <li class="site-nav__item {% if link.active %}site-nav--active{% endif %}" style="padding: 1rem;">
+                  <a href="{{ routes.root_url }}" itemprop="url" class="site-logo{% if section.settings.logo != blank %} site-header__logo-image{% endif %}">
+                    <meta itemprop="name" content="{{ shop.name }}">
+                    {%- if section.settings.logo != blank -%}
+                      {%- capture img_size -%}{{ section.settings.logo_width | times: 1 }}x{%- endcapture -%}
+                      <img src="{{ section.settings.logo | img_url: img_size }}" alt="{{ section.settings.logo.alt | default: shop.name | escape }}" itemprop="logo" width="{{ section.settings.logo_width | times: 2 }}" height="{{ section.settings.logo_width | times: 2 | divided_by: section.settings.logo.aspect_ratio | round }}">
+                    {%- else -%}
+                      {{ shop.name }}
+                    {%- endif -%}
+                  </a>
+                </li>
+                {% else %}
+                <li class="site-nav__item {% if link.active %}site-nav--active{% endif %}">
+                  <a href="{{ link.url }}" class="site-nav__link gaegu-bold">
+                    <img width="45px" height="auto" src="/assets/{{ link.title | downcase | replace: ' ', '-'  }}.png"/>
+                    <span style="width: 100%; display: block;">{{ link.title }}</span>
+                  </a>
+                </li>
+                {% endif %}
             {% endif %}
           {% endfor %}
 

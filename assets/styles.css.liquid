@@ -6122,7 +6122,7 @@ th {
 }
 
 @media (min-width: 940px) {
-  .site-logo img {
+  .mobile img {
     display: none;
   }
 }
@@ -9831,6 +9831,7 @@ input[type=submit].btn--quicklook:not(.btn--plain),
   text-align: left;
   line-height: 1.5em;
 }
+
 .site-nav > .site-nav__item {
   display: inline-block;
   font-size: {{ font_size_nav_int }}px;
@@ -9841,8 +9842,9 @@ input[type=submit].btn--quicklook:not(.btn--plain),
 }
 .site-nav > .site-nav__item > .site-nav__link {
   position: relative;
-  padding: 0 15px 12px 15px;
+  padding: 0 20px 12px 20px;
   color: {{ main_menu_link_color }};
+  text-align: center;
 }
 .site-nav > .site-nav__item > .site-nav__link:hover {
   color: {{ main_menu_link_color }};
