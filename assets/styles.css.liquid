@@ -6112,6 +6112,7 @@ th {
   text-transform: none;
   word-break: break-word;
 }
+
 .site-logo img {
   display: block;
   width: 100%;
@@ -6119,6 +6120,13 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (min-width: 940px) {
+  .site-logo img {
+    display: none;
+  }
+}
+
 
 .site-header__logo-image {
   display: block;
@@ -6393,7 +6401,7 @@ th {
   }
   .utils .store-logo.store-logo-mobile--inline {
     display: block;
-    margin-left: 10px;
+    margin-left: auto;
     padding: 0;
     margin-right: auto;
     flex-grow: 1;
