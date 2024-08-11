@@ -204,6 +204,18 @@
   font-style: normal;
 }
 
+.delius-unicase-regular {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.delius-unicase-bold {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* BASE - COMMENTED SIZES FROM BASE SIZE OF 16 */
 /* HEADINGS - COMMENTED APPROX SIZES FROM H3 SIZE OF 34 */
 /* FOOTER FONTS */
@@ -7285,6 +7297,7 @@ th {
 .full-width-slideshow-controls {
   position: absolute;
   bottom: -5px;
+  display: none;
 }
 .full-width-slideshow-controls .icon {
   transition: opacity 0.25s;
@@ -7899,11 +7912,22 @@ th {
 }
 .image-with-text .image-with-text__title {
   margin-bottom: 15px;
+  font-family: Gaegu, sans-serif;
 }
+
+.image-with-text .image-with-text__text {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 .image-with-text .image-with-text__link {
   margin-top: 15px;
   display: inline-block;
 }
+.image-with-text .btn--primary {
+  font-family: Gaegu, sans-serif;;
+}
+
 .image-with-text .image-with-text__image-size .rimage-outer-wrapper {
   overflow: hidden;
 }
@@ -9196,6 +9220,8 @@ th {
   direction: ltr;
   padding-top: calc(var(--vertical-padding) * var(--scale));
   padding-bottom: calc(var(--vertical-padding) * var(--scale));
+  border-image: url("/assets/border.png") 27 23 / 50px 30px / 1rem round space;
+
 }
 
 .marquee-content {
@@ -9251,6 +9277,8 @@ th {
 }
 .marquee-item {
   padding-right: calc(var(--space) * var(--scale));
+  font-family: Gaegu, sans-serif;
+  font-size: 1rem;
 }
 
 .marquee-item_h1 {
@@ -9264,7 +9292,7 @@ th {
 }
 
 .marquee-text {
-  font-size: max(var(--text-size) * var(--scale));
+  font-size: 1.5rem;
   color: var(--color, inherit);
   display: block;
   line-height: initial;
@@ -9604,6 +9632,7 @@ input[type=submit],
   margin: 1px;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.4em;
   min-width: 148px;
   padding: 11px 39px;
@@ -11519,7 +11548,11 @@ input[type=submit].btn--quicklook:not(.btn--plain),
     padding: 20px;
   }
 }
+.overlay-title {
+  font-family: "Delius Unicase", cursive;
 
+
+}
 .overlay-title--width {
   width: var(--overlay-title-width);
 }

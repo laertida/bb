@@ -94,7 +94,7 @@
             endif
           -%}
           <span class="marquee-item marquee-button" style="{% if block.settings.button_style == 'custom' %}--btn-col-bg: {{ block.settings.color_bg }}; --btn-col-text: {{ block.settings.color_text }}{% endif %}" {{ block.shopify_attributes }}>
-            <a href="{{ block.settings.link | default: '#' }}" class="btn btn--{{ block.settings.button_style }} btn--link">{{ block.settings.text }}</a>
+            <a href="{{ block.settings.link | default: '#' }}" class="btn btn--{{ block.settings.button_style }} btn--link">{{ block.settings.text }}-</a>
           </span>
 
         {%- endif -%}
