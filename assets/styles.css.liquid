@@ -9220,8 +9220,24 @@ th {
   direction: ltr;
   padding-top: calc(var(--vertical-padding) * var(--scale));
   padding-bottom: calc(var(--vertical-padding) * var(--scale));
-  border-image: url("/assets/border.png") 27 23 / 50px 30px / 1rem round space;
 
+}
+
+.marquee-border {
+  border-image: url("/cdn/shop/files/border.png");
+  border-image-slice: calc(80 / 284 * 100%) calc(80 / 284 * 100%) fill;
+  border-image-width: 30px 48px;
+}
+
+.marquee button {
+  margin-left: 1rem;
+  background: #FFDF6A;
+  border: none;
+  --button-border-color: none;
+  color: black;
+  font-family: Gaegu, sans-serif;
+  font-weight: 500;
+  padding: 11px 20px;
 }
 
 .marquee-content {
@@ -9279,6 +9295,7 @@ th {
   padding-right: calc(var(--space) * var(--scale));
   font-family: Gaegu, sans-serif;
   font-size: 1rem;
+  border: none;
 }
 
 .marquee-item_h1 {
@@ -9320,6 +9337,10 @@ th {
 
 .marquee-button .btn {
   white-space: nowrap;
+}
+
+.marquee-background {
+  background: white !important;
 }
 .marquee-button .btn.btn--custom,
 .marquee-button .btn.btn--custom:hover {

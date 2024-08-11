@@ -8,7 +8,7 @@
     }
   {% endstyle %}
   <div class="marquee-background{% unless section.settings.full_width %} page-width global-border-radius{% endunless %}">
-  <div class="marquee marquee--{{ section.settings.direction }}"
+  <div class="marquee marquee--{{ section.settings.direction }} marquee-border"
        style="--duration: {{ 21 | minus: section.settings.speed }}s; --space: {{ section.settings.space }}px; --text-size: {{ section.settings.text_size }}px" role="marquee">
     {%- capture scrolling_content -%}
       {%- for block in section.blocks -%}
@@ -40,6 +40,10 @@
               <a href="{{ block.settings.link }}">
             {%- endif -%}
             {{- text -}}
+                <button>
+                    {{ section.settings.text_button }}
+                </button>
+
             {%- if block.settings.link -%}
               </a>
             {%- endif -%}
@@ -192,6 +196,12 @@
         "id": "gradient_bg",
         "label": "Background gradient",
         "info": "If set, replaces background color"
+      },
+      {
+        "type": "text",
+        "id": "text_button",
+        "label": "Text Button",
+        "default": "Shop Now!"
       }
     ],
     "blocks": [
