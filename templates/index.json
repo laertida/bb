@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "slideshow": {
@@ -15,7 +6,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-1.jpg",
+            "image": "shopify://shop_images/banner-1.jpg",
             "image_link": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
@@ -52,9 +43,7 @@
           }
         }
       },
-      "block_order": [
-        "slide-0"
-      ],
+      "block_order": ["slide-0"],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -71,7 +60,7 @@
         "image_Lz7pmJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slideshow-2-banner-1.png",
+            "image": "shopify://shop_images/slideshow-2-banner-1.png",
             "image_link": "",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
@@ -110,7 +99,7 @@
         "image_UeDHxe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-1.jpg",
+            "image": "shopify://shop_images/banner-1.jpg",
             "image_link": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
@@ -147,10 +136,7 @@
           }
         }
       },
-      "block_order": [
-        "image_Lz7pmJ",
-        "image_UeDHxe"
-      ],
+      "block_order": ["image_Lz7pmJ", "image_UeDHxe"],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -164,12 +150,12 @@
     "image_with_text_BJA3qt": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-with-text.png",
+        "image": "shopify://shop_images/image-with-text.png",
         "image_link": "",
         "image_size": "30",
         "image_position": "left",
         "title": "WHY BITTY BAO?",
-        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.<\/p>",
+        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.</p>",
         "button_label": "More about our Values",
         "button_link": "",
         "url_style": "button_1",
@@ -198,9 +184,7 @@
           }
         }
       },
-      "block_order": [
-        "scrolling-block-0"
-      ],
+      "block_order": ["scrolling-block-0"],
       "settings": {
         "text_size": 50,
         "vertical_padding": 20,
@@ -209,7 +193,8 @@
         "direction": "left",
         "space": 50,
         "color_bg": "#ecf1f2",
-        "gradient_bg": ""
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
       }
     },
     "collection-list": {
@@ -226,10 +211,94 @@
         "grid": 4
       }
     },
+    "rich_text_HQY3nn": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {font-family: Gaegu, sans-serif; font-size: 2.5rem;} .large-section { padding-bottom: 0; } .rich-text-section__title { margin-bottom: 0;} p { margin: 0;} .large-row { margin-bottom: 0;}"
+      ],
+      "settings": {
+        "title": "ABOUT OUR BITTY BOOKS",
+        "text": "<p>Our bilingual books are available in 3 versions!</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": true,
+        "full_width": true,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    },
+    "split_image_c3RbAT": {
+      "type": "split-image",
+      "blocks": {
+        "image_fYdGVg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cantoneese-1_fe0f68fb-a890-4068-b490-cdf92d688f35.png",
+            "image_link": "",
+            "color_overlay_bg": "rgba(0,0,0,0)",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Cantonese Bilingual Board Gook",
+            "overlay_text": "Traditional Characters +Jyutping + English",
+            "overlay_url_text": "Shop Now",
+            "overlay_url": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 100,
+            "mobile_text_below": false,
+            "color_label_background": "#47c1bf",
+            "color_label_text": "#cd201a",
+            "product_id": "",
+            "show_chevron": true,
+            "chevron_position": "right",
+            "label_position_x": 20,
+            "label_position_y": 20
+          }
+        },
+        "image_6xTTMf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cantoneese-1_fe0f68fb-a890-4068-b490-cdf92d688f35.png",
+            "image_link": "",
+            "color_overlay_bg": "rgba(0,0,0,0)",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Mandarin Bilingual Board Book",
+            "overlay_text": "Traditional Characters  + Zhuyin + Pynyin + English",
+            "overlay_url_text": "Shop Now",
+            "overlay_url": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 100,
+            "mobile_text_below": false,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "product_id": "",
+            "show_chevron": true,
+            "chevron_position": "right",
+            "label_position_x": 80,
+            "label_position_y": 80
+          }
+        }
+      },
+      "block_order": ["image_fYdGVg", "image_6xTTMf"],
+      "settings": {
+        "height_desktop": 600,
+        "height_mobile": 500
+      }
+    },
     "video_HPxqwi": {
       "type": "video",
       "settings": {
-        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "color_overlay_bg": "#ff92c5",
         "overlay_opacity": 65,
         "color_overlay_text": "#ffffff",
@@ -248,7 +317,7 @@
         "logo_fPaQDR": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-1.png",
+            "image": "shopify://shop_images/logo-list-1.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -257,7 +326,7 @@
         "logo_rYkyrV": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-2.png",
+            "image": "shopify://shop_images/logo-list-2.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -266,18 +335,14 @@
         "logo_CYb4r4": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-3.png",
+            "image": "shopify://shop_images/logo-list-3.png",
             "image_width": 160,
             "link": "",
             "title": ""
           }
         }
       },
-      "block_order": [
-        "logo_fPaQDR",
-        "logo_rYkyrV",
-        "logo_CYb4r4"
-      ],
+      "block_order": ["logo_fPaQDR", "logo_rYkyrV", "logo_CYb4r4"],
       "settings": {
         "title": "Where we’ve been featured",
         "color_bg": "#ffffff",
@@ -295,8 +360,8 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
+            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!</p>",
+            "image": "shopify://shop_images/testimonials-1.png",
             "author": "Laura H."
           }
         },
@@ -304,16 +369,13 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
+            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!</p>",
+            "image": "shopify://shop_images/testimonials-1.png",
             "author": "Laura J."
           }
         }
       },
-      "block_order": [
-        "testimonial_tfhVTr",
-        "testimonial_czcyyz"
-      ],
+      "block_order": ["testimonial_tfhVTr", "testimonial_czcyyz"],
       "settings": {
         "title": "",
         "color_title": "#333333",
@@ -332,7 +394,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_h8jzDH": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Follow Our Journey",
             "title_color": "",
@@ -342,11 +404,8 @@
           }
         }
       },
-      "block_order": [
-        "instafeed_app_block_h8jzDH"
-      ],
-      "settings": {
-      }
+      "block_order": ["instafeed_app_block_h8jzDH"],
+      "settings": {}
     }
   },
   "order": [
@@ -355,6 +414,8 @@
     "image_with_text_BJA3qt",
     "scrolling-banner",
     "collection-list",
+    "rich_text_HQY3nn",
+    "split_image_c3RbAT",
     "video_HPxqwi",
     "logo_list_iN8wqc",
     "testimonials_8UW4MP",
