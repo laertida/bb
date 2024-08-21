@@ -295,6 +295,24 @@
         "height_mobile": 500
       }
     },
+    "rich_text_mEhz8M": {
+      "type": "rich-text",
+      "custom_css": ["h2 {font-family: Gaegu, sans-serif;}"],
+      "settings": {
+        "title": "OUR PROCESS",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    },
     "video_HPxqwi": {
       "type": "video",
       "custom_css": [
@@ -420,6 +438,7 @@
     "collection-list",
     "rich_text_HQY3nn",
     "split_image_c3RbAT",
+    "rich_text_mEhz8M",
     "video_HPxqwi",
     "logo_list_iN8wqc",
     "testimonials_8UW4MP",
