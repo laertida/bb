@@ -297,8 +297,12 @@
     },
     "video_HPxqwi": {
       "type": "video",
+      "custom_css": [
+        ".video-container { max-width: 60%;  margin-left: auto; margin-right: auto;} .large-title { font-size: 1.5rem; }"
+      ],
       "settings": {
         "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image": "shopify://shop_images/process.png",
         "color_overlay_bg": "#ff92c5",
         "overlay_opacity": 65,
         "color_overlay_text": "#ffffff",
@@ -307,7 +311,7 @@
         "enlarge_title": false,
         "enlarge_text": false,
         "overlay_position_x": 50,
-        "overlay_position_y": 70,
+        "overlay_position_y": 50,
         "mobile_text_below": false
       }
     },
