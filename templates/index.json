@@ -366,11 +366,11 @@
       },
       "block_order": ["logo_fPaQDR", "logo_rYkyrV", "logo_CYb4r4"],
       "settings": {
-        "title": "Where we’ve been featured",
+        "title": "WHERE WE'VE BEEN FEATURED",
         "color_bg": "#ffffff",
         "color_title": "#333333",
         "color_text": "#333333",
-        "enlarge_title": false,
+        "enlarge_title": true,
         "enlarge_text": false,
         "image_opacity": 75
       }
