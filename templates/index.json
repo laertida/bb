@@ -214,7 +214,11 @@
     "rich_text_HQY3nn": {
       "type": "rich-text",
       "custom_css": [
-        "h2 {font-family: Gaegu, sans-serif; font-size: 2.5rem;} .large-section { padding-bottom: 0; } .rich-text-section__title { margin-bottom: 0;} p { margin: 0;} .large-row { margin-bottom: 0;}"
+        "h2 {font-family: Gaegu, sans-serif; font-size: 2.5rem;}",
+        ".large-section {padding-bottom: 0;}",
+        ".rich-text-section__title {margin-bottom: 0;}",
+        "p {margin: 0;}",
+        ".large-row {margin-bottom: 0;}"
       ],
       "settings": {
         "title": "ABOUT OUR BITTY BOOKS",
@@ -237,7 +241,7 @@
         "image_fYdGVg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cantoneese-1_fe0f68fb-a890-4068-b490-cdf92d688f35.png",
+            "image": "shopify://shop_images/Mandarin_Simplified.png",
             "image_link": "",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
@@ -264,7 +268,7 @@
         "image_6xTTMf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cantoneese-1_fe0f68fb-a890-4068-b490-cdf92d688f35.png",
+            "image": "shopify://shop_images/Cantonese.png",
             "image_link": "",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
@@ -291,7 +295,7 @@
       },
       "block_order": ["image_fYdGVg", "image_6xTTMf"],
       "settings": {
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 500
       }
     },
@@ -316,7 +320,8 @@
     "video_HPxqwi": {
       "type": "video",
       "custom_css": [
-        ".video-container { max-width: 60%;  margin-left: auto; margin-right: auto;} .large-title { font-size: 1.5rem; }"
+        ".video-container {max-width: 60%; margin-left: auto; margin-right: auto;}",
+        ".large-title {font-size: 1.5rem;}"
       ],
       "settings": {
         "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -381,8 +386,9 @@
         "testimonial_tfhVTr": {
           "type": "testimonial",
           "settings": {
+            "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!</p>",
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
             "image": "shopify://shop_images/testimonials-1.png",
             "author": "Laura H."
           }
@@ -390,16 +396,42 @@
         "testimonial_czcyyz": {
           "type": "testimonial",
           "settings": {
+            "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>We couldn't be more pleased, the products and services are absolutely fantastic!</p>",
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
+            "image": "shopify://shop_images/testimonials-1.png",
+            "author": "Laura J."
+          }
+        },
+        "testimonial_tfhVTy": {
+          "type": "testimonial",
+          "settings": {
+            "summary": "The best book ever!",
+            "star_rating": 5,
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
+            "image": "shopify://shop_images/testimonials-1.png",
+            "author": "Laura H."
+          }
+        },
+        "testimonial_czcyya": {
+          "type": "testimonial",
+          "settings": {
+            "summary": "The best book ever!",
+            "star_rating": 5,
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
             "image": "shopify://shop_images/testimonials-1.png",
             "author": "Laura J."
           }
         }
       },
-      "block_order": ["testimonial_tfhVTr", "testimonial_czcyyz"],
+      "block_order": [
+        "testimonial_tfhVTr",
+        "testimonial_czcyyz",
+        "testimonial_tfhVTy",
+        "testimonial_czcyya"
+      ],
       "settings": {
-        "title": "",
+        "title": "WHAT ARE PEOPLE SAYING ABOUT BITTY BAO? READ OUR REVIEWS",
         "color_title": "#333333",
         "color_text": "#333333",
         "color_bg": "#ffdf6a",
