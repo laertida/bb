@@ -10021,18 +10021,6 @@ input[type=submit].btn--quicklook:not(.btn--plain),
   margin-left: 4rem;
 }
 
-.site-nav > .site-nav__item > .site-nav__link::after {
-  background-color: {{ main_menu_link_color }};
-  bottom: 0;
-  content: "";
-  height: 3px;
-  left: 0;
-  position: absolute;
-  transform: scaleY(0);
-  transition: transform 0.25s;
-  transform-origin: bottom;
-  width: 100%;
-}
 
 .site-nav .site-nav__link:focus:after,
 .site-nav__item:hover .site-nav__link:after,
@@ -10047,9 +10035,10 @@ input[type=submit].btn--quicklook:not(.btn--plain),
 
 .site-nav--active .site-nav__link span {
   background-color: #FFDF6A;
-  padding: 0 10px;
+  padding: 0 5px;
   border-radius: 20px;
 }
+
 .site-nav__icon {
   display: inline-block;
   vertical-align: middle;
