@@ -10,7 +10,9 @@
             <div class="subscribe-form__heading">
               {{- section.settings.subscribe_title -}}
             </div>
-
+            <div class="subscribe-form__subheading">
+              {{- section.settings.subscribe_subtitle -}}
+            </div>
             {%- if section.settings.subscribe_description != blank -%}
               <div class="subscribe-form__text rte small-text">
                 {{- section.settings.subscribe_description -}}
@@ -39,7 +41,7 @@
                     </label>
                     <input type="email" required class="subscribe-form__email required" value="" id="footer_mailinglist_email" name="contact[email]">
                   </div>
-                  <button class="btn btn--secondary subscribe-form__submit" type="submit">
+                  <button class="subscribe-form__submit" type="submit">
                     {{- section.settings.subscribe_button -}}
                   </button>
                 </div>
@@ -214,8 +216,15 @@
         "type": "text",
         "id": "subscribe_title",
         "label": "Heading",
-        "default": "Get updates"
+        "default": "THEY GROW UP SO FAST"
       },
+      {
+        "type": "text",
+        "id": "subscribe_subtitle",
+        "label": "Subeading",
+        "default": "Don’t miss a Big Bitty thing. Sign up to receive news and updates."
+      },
+
       {
         "type": "text",
         "id": "subscribe_label",
@@ -228,11 +237,6 @@
         "label": "Submit button text",
         "default": "Sign up"
       },
-      {
-        "type": "richtext",
-        "id": "subscribe_description",
-        "label": "Subheading"
-      }
     ],
     "max_blocks": 4,
     "blocks": [

@@ -60,7 +60,7 @@
         "image_Lz7pmJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/slideshow-2-banner-1.png",
+            "image": "shopify://shop_images/Carrousel-_1.jpg",
             "image_link": "",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
@@ -86,14 +86,14 @@
             "color_label_background": "#ffffff",
             "color_label_text": "#333333",
             "show_chevron": false,
-            "product_id_1": "",
+            "product_id_1": "foodie-detectives-reimagined-simplified-mandarin",
             "chevron_position_1": "right",
-            "label_position_x_1": 20,
-            "label_position_y_1": 30,
-            "product_id_2": "",
+            "label_position_x_1": 33,
+            "label_position_y_1": 59,
+            "product_id_2": "its-time-for-hot-pot-reimagined-traditional-cantonese",
             "chevron_position_2": "right",
             "label_position_x_2": 80,
-            "label_position_y_2": 50
+            "label_position_y_2": 85
           }
         },
         "image_UeDHxe": {
@@ -209,112 +209,6 @@
           "apparel"
         ],
         "grid": 4
-      }
-    },
-    "rich_text_HQY3nn": {
-      "type": "rich-text",
-      "custom_css": [
-        "h2 {font-family: Gaegu, sans-serif; font-size: 2.5rem;}",
-        ".large-section {padding-bottom: 0;}",
-        ".rich-text-section__title {margin-bottom: 0;}",
-        "p {margin: 0;}",
-        ".large-row {margin-bottom: 0;}"
-      ],
-      "settings": {
-        "title": "ABOUT OUR BITTY BOOKS",
-        "text": "<p>Our bilingual books are available in 3 versions!</p>",
-        "button_label": "",
-        "button_link": "",
-        "url_style": "button_1",
-        "enlarge_title": true,
-        "enlarge_text": true,
-        "full_width": true,
-        "color_title": "#333333",
-        "color_text": "#333333",
-        "color_bg": "rgba(0,0,0,0)",
-        "gradient_bg": ""
-      }
-    },
-    "split_image_c3RbAT": {
-      "type": "split-image",
-      "blocks": {
-        "image_fYdGVg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mandarin_Simplified.png",
-            "image_link": "",
-            "color_overlay_bg": "rgba(0,0,0,0)",
-            "overlay_opacity": 80,
-            "color_overlay_text": "#333333",
-            "overlay_title": "Cantonese Bilingual Board Gook",
-            "overlay_text": "Traditional Characters +Jyutping + English",
-            "overlay_url_text": "Shop Now",
-            "overlay_url": "",
-            "overlay_url_style": "button_1",
-            "enlarge_title": false,
-            "enlarge_text": false,
-            "overlay_position_x": 50,
-            "overlay_position_y": 100,
-            "mobile_text_below": false,
-            "color_label_background": "#47c1bf",
-            "color_label_text": "#cd201a",
-            "product_id": "",
-            "show_chevron": true,
-            "chevron_position": "right",
-            "label_position_x": 20,
-            "label_position_y": 20
-          }
-        },
-        "image_6xTTMf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Cantonese.png",
-            "image_link": "",
-            "color_overlay_bg": "rgba(0,0,0,0)",
-            "overlay_opacity": 80,
-            "color_overlay_text": "#333333",
-            "overlay_title": "Mandarin Bilingual Board Book",
-            "overlay_text": "Traditional Characters  + Zhuyin + Pynyin + English",
-            "overlay_url_text": "Shop Now",
-            "overlay_url": "",
-            "overlay_url_style": "button_1",
-            "enlarge_title": false,
-            "enlarge_text": false,
-            "overlay_position_x": 50,
-            "overlay_position_y": 100,
-            "mobile_text_below": false,
-            "color_label_background": "#ffffff",
-            "color_label_text": "#333333",
-            "product_id": "",
-            "show_chevron": true,
-            "chevron_position": "right",
-            "label_position_x": 80,
-            "label_position_y": 80
-          }
-        }
-      },
-      "block_order": ["image_fYdGVg", "image_6xTTMf"],
-      "settings": {
-        "height_desktop": 700,
-        "height_mobile": 500
-      }
-    },
-    "rich_text_mEhz8M": {
-      "type": "rich-text",
-      "custom_css": ["h2 {font-family: Gaegu, sans-serif;}"],
-      "settings": {
-        "title": "OUR PROCESS",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "url_style": "button_1",
-        "enlarge_title": true,
-        "enlarge_text": false,
-        "full_width": false,
-        "color_title": "#333333",
-        "color_text": "#333333",
-        "color_bg": "rgba(0,0,0,0)",
-        "gradient_bg": ""
       }
     },
     "video_HPxqwi": {
@@ -468,9 +362,6 @@
     "image_with_text_BJA3qt",
     "scrolling-banner",
     "collection-list",
-    "rich_text_HQY3nn",
-    "split_image_c3RbAT",
-    "rich_text_mEhz8M",
     "video_HPxqwi",
     "logo_list_iN8wqc",
     "testimonials_8UW4MP",
