@@ -6490,6 +6490,7 @@ th {
   }
   .mobile-menu-search-bar .search-form__input::placeholder {
     color: {{ color_mobile_menu_text }};
+
   }
 }
 @media only screen and (min-width: 940px) {
@@ -6594,7 +6595,7 @@ th {
 .footer-block__heading {
   margin: 0 0 15px;
   color: {{ footer_text_color }};
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .footer-block .nav__item {
@@ -10039,6 +10040,16 @@ input[type=submit].btn--quicklook:not(.btn--plain),
   transform: scaleY(1);
 }
 
+.site-nav__item .stie-nav__link span {
+  width: 100%;
+  display: block;
+}
+
+.site-nav--active .site-nav__link span {
+  background-color: #FFDF6A;
+  padding: 0 10px;
+  border-radius: 20px;
+}
 .site-nav__icon {
   display: inline-block;
   vertical-align: middle;
