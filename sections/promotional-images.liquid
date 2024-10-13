@@ -1,30 +1,42 @@
+
+
+
 <div class="container large-row promotional-images section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="promotional-images">
   {% style %}
-    {% for block in section.blocks %}
-      {% liquid
-      assign alpha = block.settings.color_bg | color_extract: 'alpha'
-      if alpha > 0
-        assign setting_bg_opacity = block.settings.overlay_opacity | divided_by: 100.00
-        assign overlay_background = block.settings.color_bg | color_modify: 'alpha', setting_bg_opacity
-      else
-        assign overlay_background = 'transparent'
-      endif
-      -%}
+  {% for block in section.blocks %}
+    {% liquid
+    assign alpha = block.settings.color_bg | color_extract: 'alpha'
+    if alpha > 0
+    assign setting_bg_opacity = block.settings.overlay_opacity | divided_by: 100.00
+    assign overlay_background = block.settings.color_bg | color_modify: 'alpha', setting_bg_opacity
+    else
+    assign overlay_background = 'transparent'
+    endif
+    -%}
 
-      .section-{{ section.id }} .block-{{ forloop.index }}.image_before .promotional-row__container,
-      .section-{{ section.id }} .block-{{ forloop.index }}.image_after .promotional-row__container {
-        background: {{ block.settings.gradient_bg | default: block.settings.color_bg }};
-        color: {{ block.settings.color_text }};
-      }
+    .section-{{ section.id }} .block-{{ forloop.index }}.image_before .promotional-row__container,
+    .section-{{ section.id }} .block-{{ forloop.index }}.image_after .promotional-row__container {
+    background: {{ block.settings.gradient_bg | default: block.settings.color_bg }};
+    color: {{ block.settings.color_text }};
+    }
 
-      .section-{{ section.id }} .block-{{ forloop.index }}.text_over_image .promotional-image,
-      .section-{{ section.id }} .block-{{ forloop.index }}.text_over_image .promotional-row__content {
-        color: {{ block.settings.color_text }};
-        background-color: {{ overlay_background }};
-      }
-    {% endfor %}
+    .section-{{ section.id }} .block-{{ forloop.index }}.text_over_image .promotional-image,
+    .section-{{ section.id }} .block-{{ forloop.index }}.text_over_image .promotional-row__content {
+    color: {{ block.settings.color_text }};
+    background-color: {{ overlay_background }};
+    }
 
-    @media only screen and (max-width: 767.98px) {
+    .section-{{  section.id }} .block-{{ forloop.index }} .promotional-row__container .promotional-row__content--link {
+    background-color: {{ block.settings.button_background_color }};
+    --button-border-color: {{ block.settings.button_background_color }};
+    color: {{ block.settings.button_text_color }};
+
+    }
+
+  {% endfor %}
+
+
+  @media only screen and (max-width: 767.98px) {
       {% for block in section.blocks %}
         {% if block.settings.layout == 'text_over_image' %}
           {% assign alpha = block.settings.color_bg | color_extract: 'alpha' %}
@@ -115,11 +127,11 @@
           <div class="promotional-row__container global-border-radius{% if block.settings.layout != 'text_over_image' %} relative{% endif %}">
             <div class="promotional-row__content global-border-radius center{% if alpha == 0 %} promotional-row__content--transparent-bg{% endif %}">
               <div data-cc-animate="zoom-out-fade-in" data-cc-animate-delay="0.3s">
-                {% if block.settings.title != blank %}
-                  <div class="promotional-row__text rte{% if block.settings.enlarge_text%} large-text{% endif %}">{{ block.settings.title }}</div>
-                {% endif %}
                 {% if block.settings.offer != blank %}
                   <h2 class="promotional-row__title{% if block.settings.enlarge_title %} massive-title{% else %} giant-title{% endif %}" data-cc-animate="wobble-in">{{ block.settings.offer }}</h2>
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <div class="promotional-row__text rte{% if block.settings.enlarge_text%} large-text{% endif %}">{{ block.settings.title }}</div>
                 {% endif %}
 
                 {% assign alpha = block.settings.color_bg | color_extract: 'alpha' %}
@@ -206,6 +218,19 @@
             "label": "Background color",
             "default": "#dae4e6"
           },
+          {
+            "type": "color",
+            "id": "button_background_color",
+            "label": "Button background color",
+            "default": "#63DEE5"
+          },
+          {
+            "type": "color",
+            "id": "button_text_color",
+            "label": "Button text color",
+            "default": "#fff"
+          },
+
           {
             "type": "color_background",
             "id": "gradient_bg",
