@@ -1,5 +1,16 @@
+{% if background_color %}
+  <style>
+   .product-block {
+     background-color: {{ background_color }}33;
+     border-radius: 30px;
+
+   }
+  </style>
+{% endif %}
+
+
 <div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }}{% if quickbuy %} js-contains-quickbuy{% endif %}"
-{% if animate %} data-cc-animate="{{ animate_style }}"{% if animate > 0 %} data-cc-animate-delay="{{ animate | times: 0.07 }}s"{% endif %}{% endif %}>
+     {% if animate %} data-cc-animate="{{ animate_style }}"{% if animate > 0 %} data-cc-animate-delay="{{ animate | times: 0.07 }}s"{% endif %}{% endif %}>
   <div class="product-block__image-container">
     <div class="global-border-radius {% if product.media.size > 1 or settings.product_grid_image_shape == 'natural' or settings.prod_thumb_crop %}hover-images{% endif %} {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
       <a class="product-block__image product-block__image--shape-{{ settings.product_grid_image_shape }} product-block__image--crop-{{ settings.prod_thumb_crop }} product-block__image--valign-{{ settings.prod_thumb_crop_align }}" href="{{ product.url | within: collection }}">
@@ -57,7 +68,8 @@
       {{- product.vendor -}}
     </div>
   {%- endif -%}
-
+  {%- if show_price == false -%}
+  {%- else -%}
   <div class="product-price">
     {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
     {% render 'unit-price', variant: cheapest_variant %}
@@ -87,6 +99,7 @@
       <span class="product-label product-label--sold-out global-border-radius">{{ 'products.product.sold_out' | t }}</span>
     {% endif %}
   </div>
+  {%- endif -%}
 
   {%- if settings.swatch_enabled_grid -%}
     {%- liquid
@@ -151,5 +164,13 @@
         </span>
       </div>
     {%- endif -%}
+  {%- endif -%}
+  {%- if show_button == true -%}
+    <button style="margin-top: 0.5rem;
+                   background-color: {{ button_background_color }};
+                   color: {{  button_color }};
+                   --button-border-color: {{ button_background_color }};
+                   ">Buy now</button>
+  {%-else -%}
   {%- endif -%}
 </div>

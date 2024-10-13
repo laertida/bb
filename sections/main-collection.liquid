@@ -1,3 +1,14 @@
+<style>
+ .cc-filter__panel {
+   background: {{ section.settings.facet_color }};
+ }
+
+ .cc-filter__toggle {
+   background: {{ section.settings.facet_color }};
+   border: none !important;
+ }
+</style>
+
 {%- paginate collection.products by section.settings.pagination_limit -%}
   {%- liquid
     if section.settings.enable_feature_header and current_page == 1 and collection.products.size > 0
@@ -82,7 +93,7 @@
           </div>
           <div class="collection-header__container collection-header__product-container">
             {%- assign quickbuy_toggle = settings.quickbuy_buttons_toggle -%}
-            {% render 'product-block', product: featured_product, grid_class: ' ', quickbuy: quickbuy_toggle, show_vendor: section.settings.show_vendor %}
+            {% render 'product-block', product: featured_product, grid_class: ' ', quickbuy: quickbuy_toggle, show_vendor: section.settings.show_vendor, background_color: settings.card_background_color %}
           </div>
         {%- else -%}
           {%- if header_image != blank -%}
@@ -129,7 +140,7 @@
           if section.settings.grid == 2
             assign grid_class = 'one-half'
           elsif section.settings.grid == 3
-            assign grid_class = 'one-third'
+            assign grid_class = 'one-third-with-padding'
           elsif section.settings.grid == 5
             assign grid_class = 'one-fifth'
           endif
@@ -141,10 +152,10 @@
         -%}
         {% capture grid_class_list %}{{ grid_class }} small-down--{{ grid_mobile_class }} grid-flex__item {% endcapture %}
 
-        <div class="grid-flex large-row">
+        <div class="grid-flex-with-gap large-row">
           {%- for product in collection.products -%}
             {% assign quickbuy_toggle = settings.quickbuy_buttons_toggle %}
-            {% render 'product-block', quickbuy: quickbuy_toggle, product: product, grid_class: grid_class_list, show_vendor: section.settings.show_vendor %}
+            {% render 'product-block', quickbuy: quickbuy_toggle, product: product, grid_class: grid_class_list, show_vendor: section.settings.show_vendor, background_color: section.settings.card_background_color %}
           {%- else -%}
             {%- if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0 -%}
               {%- for i in (1..8) -%}
@@ -173,7 +184,6 @@
   </div>
 {%- endpaginate -%}
 
-
 {% schema %}
   {
     "name": "Collection",
@@ -197,13 +207,25 @@
         "content": "Layout"
       },
       {
+        "type": "color",
+        "id": "facet_color",
+        "label": "Facet background color",
+        "default": "#EFF5F5"
+      },
+      {
+        "type": "color",
+        "id": "card_background_color",
+        "label": "Card background color",
+        "default": "#63DEE5"
+      },
+      {
         "type": "range",
         "id": "grid",
         "label": "Products per row desktop",
         "min": 2,
         "max": 5,
         "step": 1,
-        "default": 4
+        "default": 3
       },
       {
         "type": "select",
@@ -218,7 +240,7 @@
       {
         "type": "range",
         "id": "pagination_limit",
-        "min": 8,
+        "min": 6,
         "max": 50,
         "step": 1,
         "label": "Products per page",

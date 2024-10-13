@@ -3166,13 +3166,20 @@ html.supports-no-cookies .supports-cookies {
   margin-left: -30px;
   margin-bottom: -30px;
 }
+
+.grid-flex-with-gap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
+
 .grid-flex.slick-slider {
   display: block;
   margin-bottom: 0;
 }
 
 .grid-flex__item {
-  padding-left: 30px;
   padding-bottom: 30px;
   width: 100%;
 }
@@ -3230,6 +3237,10 @@ grid-column: 2;
 /* Thirds */
 .one-third {
   width: 33.3333333333%;
+}
+
+.one-third-with-padding {
+  width: calc(33.3333333333% - 4rem)
 }
 
 .two-thirds {
