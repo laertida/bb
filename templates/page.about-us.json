@@ -1,0 +1,186 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "scrolling_banner_GLjQUP": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_t7BFRz": {
+          "type": "text",
+          "settings": {
+            "text": "FOR YOUR BITTY BABES!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "base",
+            "link": "shopify://collections/all",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": ["text_t7BFRz"],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_d38gVw": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/mision.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "OUR VISION",
+        "text": "<p>To create a future where Bitty Bao’s innovative and accessible approach to bilingual learning makes us a household name.  We strive to empower learners of all ages to seamlessly navigate a multicultural world, making bilingualism not just an option, but an everyday choice.</p><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#333333",
+        "color_bg": "#ffb57e",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_n89WAk": {
+      "type": "image-with-text",
+      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
+      "settings": {
+        "image": "shopify://shop_images/mision2.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "OUR MISSION",
+        "text": "<p>To instill a deep appreciation and enjoyment of Chinese language and culture, in learners of all ages, by nurturing a sense of cultural pride, global connection, and cross-cultural understanding through educational products.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#ffffff",
+        "color_bg": "#857ce9",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_Ukgke9": {
+      "type": "image-with-text",
+      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
+      "settings": {
+        "image": "shopify://shop_images/values_ba8e013a-78af-45e4-92e7-6c37f9ada97e.png",
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "right",
+        "title": "OUR CORE VALUES",
+        "text": "<ul><li>Be fearless!</li><li>Embrace authenticity!</li><li>Be a community!</li><li>Create Learning opportunities!</li></ul><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#333333",
+        "color_bg": "#63dee5",
+        "gradient_bg": ""
+      }
+    },
+    "video_BjcVM7": {
+      "type": "video",
+      "custom_css": [
+        ".video-container {max-width: 60%; margin-left: auto; margin-right: auto;}",
+        ".large-title {font-size: 1.5rem;}"
+      ],
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image": "shopify://shop_images/cover-video-our-story.png",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "OUR STORY",
+        "overlay_text": "",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": true
+      }
+    },
+    "image_with_text_MGw3nP": {
+      "type": "image-with-text",
+      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
+      "settings": {
+        "image": "shopify://shop_images/lulu-cheng.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "MEET THE TEAM  BITTY BAO CO-FOUNDER",
+        "text": "<h5>LULU CHENG</h5><p>Meet Lulu; a wife, mom of 2 bitty babes, former public school teacher, with her newest title - Bitty Bao Boss. Since her bitty babes were born, Lulu has worked hard to embed Chinese language and culture into everything that they do.  Lulu’s struggle to find cute bilingual Chinese books for her kids’ bedtime soon evolved into a #bigbittydream to make Chinese board books of her own for families just like hers.  As a native Mandarin speaker raising her children in an English prevalent world and extended family, Lulu has a passion for creating products that can support every adult in the household regardless of their own second language fluency level.</p>",
+        "button_label": "Meet Lulu",
+        "button_link": "",
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#333333",
+        "color_bg": "#ff92c5",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_DbzcLq": {
+      "type": "image-with-text",
+      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
+      "settings": {
+        "image": "shopify://shop_images/Leacy.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "MEET THE TEAM  BITTY BAO CO-FOUNDER",
+        "text": "<h5>LACEY BENARD</h5><p>A firewife, mom of 2 bitty babes, with over a decade of service as a public school educator and administrator, and now the other half of the dynamic Bitty Bao Duo - meet Lacey.  As an American-Born-Chinese woman, raised without the gift of Chinese as a second language, Lacey is hoping to now prioritize language acquisition for her own bitty babes through bilingual books, cultural events, and their school district’s Mandarin dual immersion program.  Knowing first-hand how challenging it can be to find resources to support language acquisition at home, Lacey finds passion in creating and dreaming up products to support and inspire families like hers.</p>",
+        "button_label": "Meet Leacy",
+        "button_link": "",
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#333333",
+        "color_bg": "#ff92c5",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "scrolling_banner_GLjQUP",
+    "main",
+    "image_with_text_d38gVw",
+    "image_with_text_n89WAk",
+    "image_with_text_Ukgke9",
+    "video_BjcVM7",
+    "image_with_text_MGw3nP",
+    "image_with_text_DbzcLq"
+  ]
+}

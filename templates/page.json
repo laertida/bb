@@ -3,10 +3,102 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "standout_collection_9W7QFF": {
+      "type": "standout-collection",
+      "settings": {
+        "collection": "book-bundles",
+        "color_text": "#333333",
+        "color_bg": "#857ce9",
+        "color_bg_transparency": 20,
+        "alternative_image": "shopify://shop_images/rectangle-5.png",
+        "layout": "left",
+        "show_price": false,
+        "show_vendor": false,
+        "show_button": true,
+        "button_color": "#000000",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_2",
+        "enlarge_title": true,
+        "overlay_position_y": 70,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#ffffff",
+        "product_id": "",
+        "show_chevron": false,
+        "chevron_position": "right",
+        "label_position_x": 10,
+        "label_position_y": 30
+      }
+    },
+    "standout_collection_m8LHci": {
+      "type": "standout-collection",
+      "settings": {
+        "collection": "individual-books",
+        "color_text": "#333333",
+        "color_bg": "#63dee5",
+        "color_bg_transparency": 20,
+        "alternative_image": "shopify://shop_images/Rectangle_6.png",
+        "layout": "right",
+        "show_price": false,
+        "show_vendor": false,
+        "show_button": true,
+        "button_color": "#000000",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#000000",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_2",
+        "enlarge_title": true,
+        "overlay_position_y": 70,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#ffffff",
+        "product_id": "",
+        "show_chevron": false,
+        "chevron_position": "right",
+        "label_position_x": 10,
+        "label_position_y": 30
+      }
+    },
+    "standout_collection_7RKRyL": {
+      "type": "standout-collection",
+      "settings": {
+        "collection": "wooden-toys",
+        "color_text": "#333333",
+        "color_bg": "#ffdf6a",
+        "color_bg_transparency": 20,
+        "alternative_image": "shopify://shop_images/Rectangle_5.png",
+        "layout": "left",
+        "show_price": false,
+        "show_vendor": false,
+        "show_button": true,
+        "button_color": "#000000",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#000000",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_2",
+        "enlarge_title": true,
+        "overlay_position_y": 70,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#ffffff",
+        "product_id": "",
+        "show_chevron": false,
+        "chevron_position": "right",
+        "label_position_x": 10,
+        "label_position_y": 30
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "standout_collection_9W7QFF",
+    "standout_collection_m8LHci",
+    "standout_collection_7RKRyL"
   ]
 }

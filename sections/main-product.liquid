@@ -1,19 +1,35 @@
 {%- liquid
-  assign current_variant = product.selected_or_first_available_variant
-  assign featured_media = current_variant.featured_media | default: product.featured_media
-  assign show_size_chart = false
+assign current_variant = product.selected_or_first_available_variant
+assign featured_media = current_variant.featured_media | default: product.featured_media
+assign show_size_chart = false
 
-  assign product_form_id = 'product-form-' | append: section.id | append: product.id
-  assign installments_form_id = product_form_id | append: '-installments'
+assign product_form_id = 'product-form-' | append: section.id | append: product.id
+assign installments_form_id = product_form_id | append: '-installments'
 
-  assign form_class = 'row'
-  if settings.on_add_to_cart != 'go_to_cart'
-    assign form_class = form_class | append: ' ajax-product-form'
-  endif
-  unless current_variant.available
-    assign form_class = form_class | append: ' variant--unavailable'
-  endunless
+assign form_class = 'row'
+if settings.on_add_to_cart != 'go_to_cart'
+assign form_class = form_class | append: ' ajax-product-form'
+endif
+unless current_variant.available
+assign form_class = form_class | append: ' variant--unavailable'
+endunless
 -%}
+
+{% style %}
+
+
+.product-layout-grid__images {
+  background-color: {{  section.settings.color_theme }};
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.product-layout-grid__detail {
+  background-color: {{  section.settings.color_theme }}33;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+{% endstyle %}
 
 <div data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true" data-components="accordion,custom-select">
   <div class="container product-detail very-large-row-under" data-product-id="{{ product.id }}">
@@ -693,6 +709,12 @@
         "id": "enable_sticky_media",
         "label": "Enable stick on scroll",
         "default": true
+      },
+      {
+        "type": "color",
+        "id": "color_theme",
+        "label": "Color theme on product",
+        "default": "#63DEE5"
       },
       {
         "type": "select",

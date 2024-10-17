@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "scrolling_banner_3rpQx9": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_6h7XNd": {
+          "type": "text",
+          "settings": {
+            "text": "FOR YOUR BITTY BABES!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": ["text_6h7XNd"],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_Qq3mUd": {
+      "type": "rich-text",
+      "settings": {
+        "title": "ABOUT OUR BITTY BOOKS  LANGUAGE SYSTEMS",
+        "text": "<p>Our bilingual books are available in 3 versions!</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": ["scrolling_banner_3rpQx9", "main", "rich_text_Qq3mUd"]
+}

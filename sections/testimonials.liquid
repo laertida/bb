@@ -26,39 +26,45 @@
     {% endif %}
   {% endstyle %}
 
-  <div class="page-width testimonials large-section global-border-radius">
+  <div class="testimonials--title text-center" data-cc-animate>
+    {% if section.settings.title != blank %}
+      <h2 class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif%}">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+  </div>
+
+  <div class="page-width testimonials  global-border-radius">
     {%- if section.settings.title != blank or section.settings.enable_carousel == true -%}
-      <div class="testimonials--title text-center" data-cc-animate>
-        {% if section.settings.title != blank %}
-          <h2 class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif%}">{{ section.settings.title | escape }}</h2>
-        {% endif %}
-      </div>
     {% endif %}
 
     <div class="grid-flex js-testimonials-section" data-autoplay="{{ section.settings.autoplay }}" data-autoplayspeed="{{ section.settings.autoplay_speed }}000">
       {% for block in section.blocks %}
-        <div class="grid-flex__item testimonial one-half small-down--one-whole" {{ block.shopify_attributes }} data-cc-animate="fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.2 }}s">
-          <div class="testimonial-stars">
-            {% for i in (1..block.settings.star_rating) %}
-              <span class="icon feather-icon testimonial-star">{% render 'feather-star' %}</span>
-            {% endfor %}
+        <div class="grid-grid testimonial" {{ block.shopify_attributes }} data-cc-animate="fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.2 }}s">
+          <div class="testimonial-header grid-grid__first-item">
+            <div class="testimonial-summary">
+              {{ block.settings.summary }}
+            </div>
+            <div class="testimonial-stars">
+              {% for i in (1..block.settings.star_rating) %}
+                <span class="icon feather-icon testimonial-star">{% render 'feather-star' %}</span>
+              {% endfor %}
+            </div>
+            <blockquote class="testimonial-content rte {% if section.settings.enlarge_text %} large-text{% else %} standard-text{% endif %}">
+              {{ block.settings.testimonial }}
+            </blockquote>
           </div>
-          <blockquote class="testimonial-content rte {% if section.settings.enlarge_text %} large-text{% else %} standard-text{% endif %}">
-            {{ block.settings.testimonial }}
-            <footer class="testimonial-author-info">
-              {%- if block.settings.image != blank -%}
-                <div class="testimonial-author-image lazyload rimage-background global-border-radius"
-                     data-bgset="{% render 'bgset', image: block.settings.image %}"
-                     data-sizes="auto"
-                     data-parent-fit="cover"
-                     style="background-position: {{ block.settings.image.presentation.focal_point }}">
-                </div>
-              {%- endif -%}
-              {%- if block.settings.author != blank -%}
-                <div class="testimonial-author-name">{{ block.settings.author }}</div>
-              {%- endif -%}
-            </footer>
-          </blockquote>
+          <footer class="testimonial-author-info grid-grid__Second-item">
+            {%- if block.settings.image != blank -%}
+              <div class="testimonial-author-image lazyload rimage-background global-border-radius"
+                   data-bgset="{% render 'bgset', image: block.settings.image %}"
+                   data-sizes="auto"
+                   data-parent-fit="cover"
+                   style="background-position: {{ block.settings.image.presentation.focal_point }}">
+              </div>
+            {%- endif -%}
+            {%- if block.settings.author != blank -%}
+              <div class="testimonial-author-name">{{ block.settings.author }}</div>
+            {%- endif -%}
+          </footer>
         </div>
       {% endfor %}
     </div>
@@ -147,6 +153,12 @@
         "type": "testimonial",
         "name": "Testimonial",
         "settings": [
+          {
+            "type": "text",
+            "id": "summary",
+            "label": "Summary",
+            "default": "The gb book ever!"
+          },
           {
             "type": "range",
             "id": "star_rating",

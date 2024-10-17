@@ -2,7 +2,7 @@
 <div class="container container--no-mobile-padding large-row standout-collection-section section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="standout-collection">
   {% style %}
     .section-{{ section.id }} .page-width {
-      background: {{ section.settings.gradient_bg | default: section.settings.color_bg }};
+      background: {{ section.settings.color_bg }}{{  section.settings.color_bg_transparency }}   ;
       color: {{ section.settings.color_text }};
     }
 
@@ -62,6 +62,7 @@
 
         {%- if collection != blank -%}
           {%- assign collection_title = collection.title -%}
+          {%- assign collection_description = collection.description %}
           {%- assign collection_url = collection.url -%}
         {%- else -%}
           {%- capture collection_title -%}{{ 'homepage.onboarding.collection_title' | t }}{%- endcapture -%}
@@ -73,6 +74,7 @@
                     background_opacity: section.settings.overlay_opacity,
                     text_color: section.settings.color_overlay_text,
                     title: collection_title,
+                    text: collection_description,
                     enlarge_title: section.settings.enlarge_title,
                     url: collection_url,
                     url_text: section.settings.overlay_url_text,
@@ -88,7 +90,7 @@
           {% assign quickbuy_toggle = settings.quickbuy_buttons_toggle %}
           {% for product in collection.products limit: 15 %}
             <div class="slide relative js-contains-quickbuy" data-cc-animate>
-              {% render 'product-block', grid_class: 'ignore', quickbuy: quickbuy_toggle, product: product, show_vendor: section.settings.show_vendor %}
+              {% render 'product-block', grid_class: 'ignore', quickbuy: quickbuy_toggle, product: product, show_vendor: section.settings.show_vendor, show_price: section.settings.show_price, button_background_color: section.settings.color_bg, show_button: section.settings.show_button, button_color: section.settings.button_color %}
             </div>
           {% else %}
 
@@ -141,10 +143,15 @@
         "default": "#dae4e6"
       },
       {
-        "type": "color_background",
-        "id": "gradient_bg",
-        "label": "Background gradient",
-        "info": "If set, replaces background color"
+        "type": "range",
+        "id": "color_bg_transparency",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Background color opacity",
+        "default": 20,
+        "unit": "%",
+        "info": "Does not apply when the overlay is shown under the image on mobile."
       },
       {
         "type": "image_picker",
@@ -170,9 +177,27 @@
       },
       {
         "type": "checkbox",
+        "id": "show_price",
+        "label": "Show price",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "show_vendor",
         "label": "Show vendor",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_button",
+        "label": "Show button",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "button_color",
+        "label": "Text color button",
+        "default": "#ffffff"
       },
       {
         "type": "header",
