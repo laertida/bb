@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-1.jpg",
+            "image": "shopify:\/\/shop_images\/BITTYBAO.gif",
             "image_link": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
@@ -43,7 +43,9 @@
           }
         }
       },
-      "block_order": ["slide-0"],
+      "block_order": [
+        "slide-0"
+      ],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -60,8 +62,8 @@
         "image_Lz7pmJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Carrousel-_1.jpg",
-            "image_link": "",
+            "image": "shopify:\/\/shop_images\/Carrousel-_1.jpg",
+            "image_link": "shopify:\/\/pages\/our-products",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
             "color_overlay_text": "#333333",
@@ -95,48 +97,11 @@
             "label_position_x_2": 80,
             "label_position_y_2": 85
           }
-        },
-        "image_UeDHxe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner-1.jpg",
-            "image_link": "",
-            "color_overlay_bg": "#ffffff",
-            "overlay_opacity": 80,
-            "color_overlay_text": "#333333",
-            "text_alignment": "center",
-            "overlay_position_x": 50,
-            "overlay_position_y": 80,
-            "overlay_title": "Slideshow",
-            "enlarge_title": false,
-            "overlay_title_width": 100,
-            "styled_words": "",
-            "words_style": "stencil",
-            "highlight_words_top": 10,
-            "highlight_color": "#ffffff",
-            "styled_word_color": "#b5e0fa",
-            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
-            "enlarge_text": false,
-            "overlay_url_text_1": "",
-            "overlay_url_1": "",
-            "overlay_url_text_2": "",
-            "overlay_url_2": "",
-            "overlay_url_style": "button_1",
-            "color_label_background": "#ffffff",
-            "color_label_text": "#333333",
-            "show_chevron": true,
-            "product_id_1": "",
-            "chevron_position_1": "right",
-            "label_position_x_1": 20,
-            "label_position_y_1": 30,
-            "product_id_2": "",
-            "chevron_position_2": "right",
-            "label_position_x_2": 80,
-            "label_position_y_2": 50
-          }
         }
       },
-      "block_order": ["image_Lz7pmJ", "image_UeDHxe"],
+      "block_order": [
+        "image_Lz7pmJ"
+      ],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -150,14 +115,14 @@
     "image_with_text_BJA3qt": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify://shop_images/image-with-text.png",
-        "image_link": "",
+        "image": "shopify:\/\/shop_images\/image-with-text.png",
+        "image_link": "shopify:\/\/pages\/new-about-us",
         "image_size": "30",
         "image_position": "left",
         "title": "WHY BITTY BAO?",
-        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.</p>",
+        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.<\/p>",
         "button_label": "More about our Values",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/new-about-us",
         "url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
@@ -177,14 +142,16 @@
             "use_custom_color": false,
             "color": "#230051",
             "font": "heading",
-            "link": "",
+            "link": "shopify:\/\/pages\/our-products",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
           }
         }
       },
-      "block_order": ["scrolling-block-0"],
+      "block_order": [
+        "scrolling-block-0"
+      ],
       "settings": {
         "text_size": 50,
         "vertical_padding": 20,
@@ -203,12 +170,41 @@
         "title": "OUR PRODUCTS",
         "enlarge_title": false,
         "collection_list": [
-          "individual-books",
+          "books",
           "wooden-toys",
           "accesories",
           "apparel"
         ],
         "grid": 4
+      }
+    },
+    "standout_collection_VAxhHV": {
+      "type": "standout-collection",
+      "settings": {
+        "collection": "about-our-bitty-books",
+        "color_text": "#333333",
+        "color_bg": "#f5c346",
+        "color_bg_transparency": 100,
+        "alternative_image": "shopify:\/\/shop_images\/3Books.png",
+        "layout": "left",
+        "show_price": false,
+        "show_vendor": false,
+        "show_button": true,
+        "button_color": "#ffffff",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#333333",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "overlay_position_y": 100,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "product_id": "",
+        "show_chevron": true,
+        "chevron_position": "right",
+        "label_position_x": 5,
+        "label_position_y": 30
       }
     },
     "video_HPxqwi": {
@@ -218,8 +214,9 @@
         ".large-title {font-size: 1.5rem;}"
       ],
       "settings": {
-        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "image": "shopify://shop_images/process.png",
+        "video_shopify": "shopify:\/\/files\/videos\/VideoBittyProcess.mov",
+        "video_external": "",
+        "image": "shopify:\/\/shop_images\/process.png",
         "color_overlay_bg": "#ff92c5",
         "overlay_opacity": 65,
         "color_overlay_text": "#ffffff",
@@ -238,7 +235,7 @@
         "logo_fPaQDR": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo-list-1.png",
+            "image": "shopify:\/\/shop_images\/logo-list-1.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -247,7 +244,7 @@
         "logo_rYkyrV": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo-list-2.png",
+            "image": "shopify:\/\/shop_images\/logo-list-2.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -256,14 +253,18 @@
         "logo_CYb4r4": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo-list-3.png",
+            "image": "shopify:\/\/shop_images\/logo-list-3.png",
             "image_width": 160,
             "link": "",
             "title": ""
           }
         }
       },
-      "block_order": ["logo_fPaQDR", "logo_rYkyrV", "logo_CYb4r4"],
+      "block_order": [
+        "logo_fPaQDR",
+        "logo_rYkyrV",
+        "logo_CYb4r4"
+      ],
       "settings": {
         "title": "WHERE WE'VE BEEN FEATURED",
         "color_bg": "#ffffff",
@@ -282,8 +283,18 @@
           "settings": {
             "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
-            "image": "shopify://shop_images/testimonials-1.png",
+            "testimonial": "<p>My baby one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
+            "author": "Laura H."
+          }
+        },
+        "testimonial_M9iNLc": {
+          "type": "testimonial",
+          "settings": {
+            "summary": "The best book ever!",
+            "star_rating": 5,
+            "testimonial": "<p>My baby one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
             "author": "Laura H."
           }
         },
@@ -292,8 +303,8 @@
           "settings": {
             "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
-            "image": "shopify://shop_images/testimonials-1.png",
+            "testimonial": "<p>My niño<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
             "author": "Laura J."
           }
         },
@@ -302,8 +313,8 @@
           "settings": {
             "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
-            "image": "shopify://shop_images/testimonials-1.png",
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
             "author": "Laura H."
           }
         },
@@ -312,14 +323,15 @@
           "settings": {
             "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</p>",
-            "image": "shopify://shop_images/testimonials-1.png",
+            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
+            "image": "shopify:\/\/shop_images\/testimonials-1.png",
             "author": "Laura J."
           }
         }
       },
       "block_order": [
         "testimonial_tfhVTr",
+        "testimonial_M9iNLc",
         "testimonial_czcyyz",
         "testimonial_tfhVTy",
         "testimonial_czcyya"
@@ -342,7 +354,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_h8jzDH": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Follow Our Journey",
             "title_color": "",
@@ -352,8 +364,11 @@
           }
         }
       },
-      "block_order": ["instafeed_app_block_h8jzDH"],
-      "settings": {}
+      "block_order": [
+        "instafeed_app_block_h8jzDH"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -362,6 +377,7 @@
     "image_with_text_BJA3qt",
     "scrolling-banner",
     "collection-list",
+    "standout_collection_VAxhHV",
     "video_HPxqwi",
     "logo_list_iN8wqc",
     "testimonials_8UW4MP",

@@ -46,7 +46,7 @@
     "hover_image_enabled": false,
     "sale_label_enabled": true,
     "sold_label_enabled": true,
-    "variant_style": "listed",
+    "variant_style": "dropdown",
     "quickbuy_buttons_toggle": false,
     "quickbuy_labels_toggle": true,
     "show_tax_and_shipping": false,
@@ -85,7 +85,7 @@
             "type": "text",
             "settings": {
               "heading": "Talk about your store",
-              "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
               "enable_follow_on_shop": false
             }
           },
@@ -97,7 +97,11 @@
             }
           }
         },
-        "block_order": ["menu", "text", "social"],
+        "block_order": [
+          "menu",
+          "text",
+          "social"
+        ],
         "settings": {
           "small_linklist": "",
           "show_powered_by": true,
@@ -107,9 +111,9 @@
           "show_language_selector": true,
           "show_subscribe_form": true,
           "subscribe_title": "Get updates",
+          "subscribe_subtitle": "Don’t miss a Big Bitty thing. Sign up to receive news and updates.",
           "subscribe_label": "Email address",
-          "subscribe_button": "Sign up",
-          "subscribe_description": ""
+          "subscribe_button": "Sign up"
         }
       },
       "banner": {
@@ -192,7 +196,10 @@
             }
           }
         },
-        "block_order": ["banner-0", "banner-1"],
+        "block_order": [
+          "banner-0",
+          "banner-1"
+        ],
         "settings": {
           "show_banner": false,
           "height": "fixed",
@@ -205,12 +212,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "1232542678405107163": {
-        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -292,18 +302,25 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "social": {
               "type": "social",
-              "settings": {}
+              "settings": {
+              }
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -392,18 +409,25 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "social": {
               "type": "social",
-              "settings": {}
+              "settings": {
+              }
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -489,18 +513,25 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "social": {
               "type": "social",
-              "settings": {}
+              "settings": {
+              }
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,
@@ -587,18 +618,25 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "social": {
               "type": "social",
-              "settings": {}
+              "settings": {
+              }
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,

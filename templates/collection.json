@@ -2,8 +2,28 @@
   "sections": {
     "main": {
       "type": "main-collection",
+      "blocks": {
+        "collection_7YzdmQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_text_color": "#FFFFFF",
+            "collection_bg_color": "#43467F",
+            "collection_bg_gradient": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7YzdmQ"
+      ],
       "settings": {
         "enable_feature_header": false,
+        "facet_color": "#EFF5F5",
+        "card_background_color": "#63DEE5",
         "grid": 3,
         "grid_mobile": "2",
         "pagination_limit": 8,
@@ -16,5 +36,7 @@
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }

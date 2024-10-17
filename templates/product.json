@@ -6,6 +6,7 @@
         "title_and_price": {
           "type": "title_and_price",
           "settings": {
+            "show_tax_and_shipping": false
           }
         },
         "vendor": {
@@ -21,16 +22,40 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "size_chart_enabled": false,
+            "size_chart_option_name": "Size",
+            "size_chart_page_id": ""
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_gift_card_recipient": false,
+            "show_pickup_availability": true,
+            "show_backorder_text": true,
+            "show_inventory_notice": "never",
+            "show_inventory_count": "low",
+            "inventory_notice_threshold": 10
           }
         },
         "description": {
           "type": "description",
           "settings": {
+            "full_width": false,
+            "show_tabs": false,
+            "tab_direction": "horizontal",
+            "icon_1": "",
+            "tab_1_title": "Description",
+            "icon_2": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_2_page": "",
+            "icon_3": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_3_page": ""
           }
         },
         "sharing": {
@@ -49,22 +74,57 @@
         "sharing"
       ],
       "settings": {
+        "enable_sticky_media": true,
+        "color_theme": "#63dee5",
+        "media_size": "large",
+        "media_layout": "thumbnails-below",
+        "enable_video_looping": false
       }
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "grid": 4,
+        "show_vendor": false
+      }
+    },
+    "product_list_rEXWer": {
+      "type": "product-list",
+      "custom_css": [
+        "h2 {font-family: Gaegu, sans-serif;}"
+      ],
+      "settings": {
+        "title": "MORE PRODUCTS",
+        "enlarge_title": true,
+        "link_text": "",
+        "link_url": "",
+        "product_list": [
+          "colors-of-snow-ice-reimagined",
+          "counting-with-dim-sum-reimagined",
+          "everyday-heroes-reimagined"
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "grid_mobile": "2"
       }
     },
     "recent": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
+        "show_recently_viewed": true,
+        "show_vendor": false
       }
     }
   },
   "order": [
     "main",
     "recommendations",
+    "product_list_rEXWer",
     "recent"
   ]
 }
