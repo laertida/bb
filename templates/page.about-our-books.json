@@ -10,16 +10,14 @@
             "use_custom_color": false,
             "color": "#230051",
             "font": "heading",
-            "link": "shopify:\/\/pages\/our-products",
+            "link": "shopify://pages/our-products",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
           }
         }
       },
-      "block_order": [
-        "text_6h7XNd"
-      ],
+      "block_order": ["text_6h7XNd"],
       "settings": {
         "text_size": 50,
         "vertical_padding": 20,
@@ -44,7 +42,7 @@
       "type": "rich-text",
       "settings": {
         "title": "ABOUT OUR BITTY BOOKS  LANGUAGE SYSTEMS",
-        "text": "<p>Our bilingual books are available in 3 versions!<\/p>",
+        "text": "<p>Our bilingual books are available in 3 versions!</p>",
         "button_label": "",
         "button_link": "",
         "url_style": "button_1",
@@ -60,8 +58,8 @@
     "video_NdwVLU": {
       "type": "video",
       "settings": {
-        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "image": "shopify:\/\/shop_images\/video-our-books.png",
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image": "shopify://shop_images/video-our-books.png",
         "color_overlay_bg": "#ffffff",
         "overlay_opacity": 0,
         "color_overlay_text": "#333333",
@@ -73,12 +71,376 @@
         "overlay_position_y": 70,
         "mobile_text_below": false
       }
+    },
+    "standout_collection_w3iqhm": {
+      "type": "standout-collection",
+      "settings": {
+        "collection": "about-our-bitty-books",
+        "color_text": "#333333",
+        "color_bg": "#f5c346",
+        "color_bg_transparency": 20,
+        "alternative_image": "shopify://shop_images/241016_v3_3Books.png",
+        "layout": "left",
+        "show_price": false,
+        "show_vendor": false,
+        "show_button": true,
+        "button_color": "#ffffff",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#333333",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "overlay_position_y": 100,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "product_id": "",
+        "show_chevron": true,
+        "chevron_position": "right",
+        "label_position_x": 10,
+        "label_position_y": 30
+      }
+    },
+    "scrolling_banner_Fnw7gJ": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_UJpPyM": {
+          "type": "text",
+          "settings": {
+            "text": "FOR YOUR BITTY BABES!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "shopify://pages/our-products",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": ["text_UJpPyM"],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "rich_text_4Agrhd": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {font-family: Delius Unicase, sans-serif;}",
+        ".large-section {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "title": "HOW TO ACCESS YOUR AUDIO FILES",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "slideshow_NXtB8C": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BPzAmk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01Open100.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "1. Open your camera app",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "image_MiXUMU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02Scan100.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "2. Scan QR code with your phone",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "image_gtmhrw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03PopUp100.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "3. Click the Pop-Up",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "image_Cjx6pd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04Enjoy100.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 100,
+            "overlay_title": "4. Enjoy your audio file!",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_BPzAmk",
+        "image_MiXUMU",
+        "image_gtmhrw",
+        "image_Cjx6pd"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "featured_blog_RVf93y": {
+      "type": "featured-blog",
+      "settings": {
+        "heading_image": "shopify://shop_images/OurBlog_portada.png",
+        "title": "Our video library",
+        "description": "",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#333333",
+        "show_view_all": false,
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 100,
+        "blog": "news",
+        "post_limit": 2,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": true,
+        "show_featured_products": true
+      }
+    },
+    "scrolling_banner_yHh47J": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_UR8kL4": {
+          "type": "text",
+          "settings": {
+            "text": "FOR YOUR BITTY BABES!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "shopify://pages/our-products",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": ["text_UR8kL4"],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "promotional_images_4i3874": {
+      "type": "promotional-images",
+      "blocks": {
+        "image_w4rLzc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categoria_Books.png",
+            "image_link": "",
+            "layout": "image_before",
+            "color_text": "#333333",
+            "color_bg": "#e0f8fa",
+            "button_background_color": "#63dee5",
+            "button_text_color": "#ffffff",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "",
+            "offer": "Books",
+            "url_text": "Buy books",
+            "url": "shopify://collections/books",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "image_GLbnPb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categoria_Accesories.png",
+            "image_link": "",
+            "layout": "image_before",
+            "color_text": "#333333",
+            "color_bg": "#dfdcf6",
+            "button_background_color": "#857ce9",
+            "button_text_color": "#ffffff",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "",
+            "offer": "gifts",
+            "url_text": "Buy gifts",
+            "url": "shopify://collections/gift-bundles",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": ["image_w4rLzc", "image_GLbnPb"],
+      "settings": {}
     }
   },
   "order": [
     "scrolling_banner_3rpQx9",
     "main",
     "rich_text_Qq3mUd",
-    "video_NdwVLU"
+    "video_NdwVLU",
+    "standout_collection_w3iqhm",
+    "scrolling_banner_Fnw7gJ",
+    "rich_text_4Agrhd",
+    "slideshow_NXtB8C",
+    "featured_blog_RVf93y",
+    "scrolling_banner_yHh47J",
+    "promotional_images_4i3874"
   ]
 }

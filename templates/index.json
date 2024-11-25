@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BITTYBAO.gif",
+            "image": "shopify://shop_images/BITTYBAO.gif",
             "image_link": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
@@ -43,9 +43,7 @@
           }
         }
       },
-      "block_order": [
-        "slide-0"
-      ],
+      "block_order": ["slide-0"],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -62,8 +60,8 @@
         "image_Lz7pmJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Carrousel-_1.jpg",
-            "image_link": "shopify:\/\/pages\/our-products",
+            "image": "shopify://shop_images/Carrousel-_1.jpg",
+            "image_link": "shopify://pages/our-products",
             "color_overlay_bg": "rgba(0,0,0,0)",
             "overlay_opacity": 80,
             "color_overlay_text": "#333333",
@@ -81,27 +79,26 @@
             "overlay_text": "Bilingual books and toys that authentically bridge cultures and lovingly inspire young minds through bilingual storytelling and imaginative play in English and Chinese.",
             "enlarge_text": false,
             "overlay_url_text_1": "Shop Now",
-            "overlay_url_1": "",
+            "overlay_url_1": "shopify://pages/our-products",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
             "overlay_url_style": "button_1",
             "color_label_background": "#ffffff",
             "color_label_text": "#333333",
             "show_chevron": false,
-            "product_id_1": "foodie-detectives-reimagined-simplified-mandarin",
+            "product_id_1": "wooden-mooncake-toy-set",
             "chevron_position_1": "right",
-            "label_position_x_1": 33,
+            "label_position_x_1": 30,
             "label_position_y_1": 59,
-            "product_id_2": "its-time-for-hot-pot-reimagined-traditional-cantonese",
+            "product_id_2": "wooden-dim-sum-toy-set",
             "chevron_position_2": "right",
             "label_position_x_2": 80,
             "label_position_y_2": 85
           }
         }
       },
-      "block_order": [
-        "image_Lz7pmJ"
-      ],
+      "block_order": ["image_Lz7pmJ"],
+      "custom_css": [".theme-money {display: none;}"],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
@@ -115,14 +112,14 @@
     "image_with_text_BJA3qt": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-with-text.png",
-        "image_link": "shopify:\/\/pages\/new-about-us",
+        "image": "shopify://shop_images/image-with-text.png",
+        "image_link": "shopify://pages/new-about-us",
         "image_size": "30",
         "image_position": "left",
         "title": "WHY BITTY BAO?",
-        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.Knowing that bilingualism is the key to a better world,Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.<\/p>",
+        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.<br/>Knowing that bilingualism is the key to a better world, Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.</p>",
         "button_label": "More about our Values",
-        "button_link": "shopify:\/\/pages\/new-about-us",
+        "button_link": "shopify://pages/new-about-us",
         "url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
@@ -142,16 +139,14 @@
             "use_custom_color": false,
             "color": "#230051",
             "font": "heading",
-            "link": "shopify:\/\/pages\/our-products",
+            "link": "shopify://pages/our-products",
             "use_h1": false,
             "stencil_all_text": false,
             "stencil_text": ""
           }
         }
       },
-      "block_order": [
-        "scrolling-block-0"
-      ],
+      "block_order": ["scrolling-block-0"],
       "settings": {
         "text_size": 50,
         "vertical_padding": 20,
@@ -169,54 +164,43 @@
       "settings": {
         "title": "OUR PRODUCTS",
         "enlarge_title": false,
-        "collection_list": [
-          "books",
-          "wooden-toys",
-          "accesories",
-          "apparel"
-        ],
+        "collection_list": ["books", "wooden-toys", "accesories", "apparel"],
         "grid": 4
       }
     },
-    "standout_collection_VAxhHV": {
-      "type": "standout-collection",
+    "featured_blog_gAjMae": {
+      "type": "featured-blog",
       "settings": {
-        "collection": "about-our-bitty-books",
-        "color_text": "#333333",
-        "color_bg": "#f5c346",
-        "color_bg_transparency": 100,
-        "alternative_image": "shopify:\/\/shop_images\/3Books.png",
-        "layout": "left",
-        "show_price": false,
-        "show_vendor": false,
-        "show_button": true,
-        "button_color": "#ffffff",
+        "heading_image": "shopify://shop_images/241016_v3_3Books.png",
+        "title": "Our Bitty Books",
+        "description": "Our bilingual books are available in 3 versions!",
         "color_overlay_bg": "#ffffff",
         "overlay_opacity": 0,
         "color_overlay_text": "#333333",
-        "overlay_url_text": "Shop now",
-        "url_style": "button_1",
+        "show_view_all": true,
+        "overlay_url_style": "button_1",
         "enlarge_title": false,
-        "overlay_position_y": 100,
-        "color_label_background": "#ffffff",
-        "color_label_text": "#333333",
-        "product_id": "",
-        "show_chevron": true,
-        "chevron_position": "right",
-        "label_position_x": 5,
-        "label_position_y": 30
+        "enlarge_text": false,
+        "overlay_position_y": 80,
+        "blog": "bitty-books",
+        "post_limit": 3,
+        "show_author": false,
+        "show_date": false,
+        "show_tags": false,
+        "show_featured_products": true
       }
     },
     "video_HPxqwi": {
       "type": "video",
       "custom_css": [
         ".video-container {max-width: 60%; margin-left: auto; margin-right: auto;}",
-        ".large-title {font-size: 1.5rem;}"
+        ".large-title {font-size: 1.5rem;}",
+        ".container {background-image: url(\"https://cdn.shopify.com/s/files/1/0668/4439/3778/files/Pattern.png?v=1729143961\"); background-size: cover;}"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/VideoBittyProcess.mov",
+        "video_shopify": "shopify://files/videos/VideoBittyProcess.mov",
         "video_external": "",
-        "image": "shopify:\/\/shop_images\/process.png",
+        "image": "shopify://shop_images/process.png",
         "color_overlay_bg": "#ff92c5",
         "overlay_opacity": 65,
         "color_overlay_text": "#ffffff",
@@ -235,7 +219,7 @@
         "logo_fPaQDR": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-1.png",
+            "image": "shopify://shop_images/logo-list-1.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -244,7 +228,7 @@
         "logo_rYkyrV": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-2.png",
+            "image": "shopify://shop_images/logo-list-2.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -253,18 +237,14 @@
         "logo_CYb4r4": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-list-3.png",
+            "image": "shopify://shop_images/logo-list-3.png",
             "image_width": 160,
             "link": "",
             "title": ""
           }
         }
       },
-      "block_order": [
-        "logo_fPaQDR",
-        "logo_rYkyrV",
-        "logo_CYb4r4"
-      ],
+      "block_order": ["logo_fPaQDR", "logo_rYkyrV", "logo_CYb4r4"],
       "settings": {
         "title": "WHERE WE'VE BEEN FEATURED",
         "color_bg": "#ffffff",
@@ -281,31 +261,31 @@
         "testimonial_tfhVTr": {
           "type": "testimonial",
           "settings": {
-            "summary": "The best book ever!",
+            "summary": "Preserving Cantonese Together",
             "star_rating": 5,
-            "testimonial": "<p>My baby one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
-            "author": "Laura H."
+            "testimonial": "<p>I grew up speaking Cantonese and now want to pass it to my child. Bitty Bao’s books help me teach him and relearn the language. Other parents love them too!</p>",
+            "image": "shopify://shop_images/Irene_N..png",
+            "author": "Irene N."
           }
         },
         "testimonial_M9iNLc": {
           "type": "testimonial",
           "settings": {
-            "summary": "The best book ever!",
+            "summary": "We love Bitty Bao!",
             "star_rating": 5,
-            "testimonial": "<p>My baby one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
-            "author": "Laura H."
+            "testimonial": "<p>They have amazing bilingual books that are so creative and educational. Not to mention their collection of diverse toys that connect to Chinese culture.</p>",
+            "image": "shopify://shop_images/Tera_C_1.png",
+            "author": "Tera C"
           }
         },
         "testimonial_czcyyz": {
           "type": "testimonial",
           "settings": {
-            "summary": "The best book ever!",
+            "summary": "Bitty Bao is great!",
             "star_rating": 5,
-            "testimonial": "<p>My niño<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
-            "author": "Laura J."
+            "testimonial": "<p>Bitty Bao is great for anyone looking to explore the world of Chinese culture with their children. I absolutely love their books and toys! They are educational and fun all in one! I highly recommend them!</p>",
+            "image": "shopify://shop_images/Cristina.png",
+            "author": "Christina T"
           }
         },
         "testimonial_tfhVTy": {
@@ -313,19 +293,19 @@
           "settings": {
             "summary": "The best book ever!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
-            "author": "Laura H."
+            "testimonial": "<p><em>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!</em></p>",
+            "image": "shopify://shop_images/testimonials-1.png",
+            "author": "Laura C."
           }
         },
         "testimonial_czcyya": {
           "type": "testimonial",
           "settings": {
-            "summary": "The best book ever!",
+            "summary": "Bitty Bao has awesome!",
             "star_rating": 5,
-            "testimonial": "<p>My little one and I love Bitty Bao! We are learning more about our culture and our language together. It's so lovely to watch my Poh reading with my little too!<\/p>",
-            "image": "shopify:\/\/shop_images\/testimonials-1.png",
-            "author": "Laura J."
+            "testimonial": "<p>Bitty Bao has awesome customer service. They have the cutest and very well-made educational toys. Their books are not only cute but full of lots of things to learn. You're never too old to learn some Chinese from Bitty Bao!</p>",
+            "image": "shopify://shop_images/CollenK.png",
+            "author": "Colleen K."
           }
         }
       },
@@ -354,7 +334,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_h8jzDH": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Follow Our Journey",
             "title_color": "",
@@ -364,11 +344,8 @@
           }
         }
       },
-      "block_order": [
-        "instafeed_app_block_h8jzDH"
-      ],
-      "settings": {
-      }
+      "block_order": ["instafeed_app_block_h8jzDH"],
+      "settings": {}
     }
   },
   "order": [
@@ -377,7 +354,7 @@
     "image_with_text_BJA3qt",
     "scrolling-banner",
     "collection-list",
-    "standout_collection_VAxhHV",
+    "featured_blog_gAjMae",
     "video_HPxqwi",
     "logo_list_iN8wqc",
     "testimonials_8UW4MP",

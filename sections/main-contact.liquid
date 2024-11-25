@@ -5,8 +5,11 @@
 
   {% if section.settings.use_columns %}
     <div class="page-width row">
-      <div class="grid">
+      <div class="grid" style="background-color: #FF92C5; padding: 3rem; border-radius: 30px;">
         <div class="grid__item one-half small-down--one-whole">
+          <img style="width: 100%; height: auto;" src="https://cdn.shopify.com/s/files/1/0668/4439/3778/files/contact_29b17278-362b-4a2e-936a-3bd322773839.png?v=1729177640">
+        </div>
+          <div class="grid__item one-half small-down--one-whole">
   {% else %}
     <div class="large-row reading-width">
   {% endif %}
@@ -44,11 +47,12 @@
           <div class="error-message">You must include the Email input block for the form to work correctly.</div>
         {% endif %}
       {% endif %}
-
+      <h1  style="color: white; font-family: Delius Unicase, sans-serif;">We'd love to hear from you!</h1>
+      <p style="font-family: Nunito; color: white; font-size: 1.2rem;">Thank you for your interest in Bitty Bao books. We love to hear from our readers. Want to chat about booking a school event, author reading, business proposal, or any other special request? Drop us a line below. We will do our best to respond to all inquiries in a timely manner. Our mail: bittybao@gmail.com</p>
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'name_input' %}
-            <div class="input-wrapper form-row">
+            <div class="input-wrapper form-row" style="background-color: white;">
               <label for="ContactFormName">{{ 'contact.form.name' | t }}</label>
               <input type="text"
                 name="contact[name]"
@@ -58,7 +62,7 @@
             </div>
 
           {% when 'email_input' %}
-            <div class="input-wrapper form-row">
+            <div class="input-wrapper form-row" style="background-color: white;">
               <label for="ContactFormEmail">{{ 'contact.form.email' | t }}</label>
               <input type="email"
                 name="contact[email]"
@@ -71,7 +75,7 @@
             </div>
 
           {% when 'phone_input' %}
-            <div class="input-wrapper form-row">
+            <div class="input-wrapper form-row"  style="background-color: white;">
               <label for="ContactFormPhone">{{ 'contact.form.phone' | t }}</label>
               <input type="tel"
                 name="contact[phone]"
@@ -82,9 +86,9 @@
               </div>
 
           {% when 'message_input' %}
-            <div class="input-wrapper form-row input-wrapper--padded">
+              <div class="input-wrapper form-row input-wrapper--padded" style="background-color: white;">
               <label for="ContactFormMessage">{{ 'contact.form.message' | t }}</label>
-              <textarea rows="10" name="contact[body]" id="ContactFormMessage" required>{% if form.body %}{{ form.body }}{% endif %}</textarea>
+              <textarea rows="5" name="contact[body]" id="ContactFormMessage" required>{% if form.body %}{{ form.body }}{% endif %}</textarea>
             </div>
 
           {% when 'text' %}
@@ -92,7 +96,7 @@
 
           {% when 'custom_input' %}
             {% unless block.settings.title == blank %}
-              <div class="input-wrapper form-row">
+              <div class="input-wrapper form-row style="background-color: white;">
                 {%- assign title_handle = block.settings.title | handle -%}
                 <label for="contact_{{ title_handle }}">{{ block.settings.title | escape }}</label>
                 {% if block.settings.type == 'textarea' %}
@@ -116,7 +120,7 @@
       {% endfor %}
 
       <div class="row">
-        <input type="submit" class=" contact-form__submit btn" value="{{ 'contact.form.send' | t }}">
+        <input style="float: right;" type="submit" class="btn" value="{{ 'contact.form.send' | t }}">
       </div>
 
     {% endform %}

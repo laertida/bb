@@ -431,6 +431,7 @@
               <li class="site-nav__item site-nav__item--has-dropdown
                         {% if link.active %}site-nav__item--active{% endif %}
                         site-nav__item--{{ dropdown_type }}dropdown">
+                <img width="45px" height="auto" src="/cdn/shop/files/{{ link.title | downcase | replace: ' ', '-'  }}.png"/>
                 <a href="{{ link.url }}" class="site-nav__link" aria-haspopup="true" aria-expanded="false">
                   {{ link.title }}
                   <span class="feather-icon site-nav__icon">{% render 'svg-chevron-down' %}</span>

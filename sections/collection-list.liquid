@@ -6,9 +6,9 @@
       </div>
     {% endif %}
 
-    <div class="grid-flex">
+    <div class="grid-flex-with-gap">
       {%- liquid
-        assign grid_class = 'one-quarter small-down--one-half'
+        assign grid_class = 'one-quarter-with-padding small-down--one-half'
         if section.settings.grid == 2
           assign grid_class = 'one-half small-down--one-half'
         elsif section.settings.grid == 3

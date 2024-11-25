@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "scrolling_banner_GLjQUP": {
@@ -109,68 +100,76 @@
         "gradient_bg": ""
       }
     },
-    "video_BjcVM7": {
-      "type": "video",
-      "custom_css": [
-        ".video-container {max-width: 60%; margin-left: auto; margin-right: auto;}",
-        ".large-title {font-size: 1.5rem;}"
-      ],
+    "featured_blog_rDaajQ": {
+      "type": "featured-blog",
       "settings": {
-        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "image": "shopify://shop_images/cover-video-our-story.png",
-        "color_overlay_bg": "#ffffff",
-        "overlay_opacity": 0,
-        "color_overlay_text": "#ffffff",
-        "overlay_title": "OUR STORY",
-        "overlay_text": "",
+        "heading_image": "shopify://shop_images/Submissions.png",
+        "title": "Our history",
+        "description": "",
+        "color_overlay_bg": "#ffdf6a",
+        "overlay_opacity": 100,
+        "color_overlay_text": "#000000",
+        "show_view_all": true,
+        "overlay_url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
-        "overlay_position_x": 50,
-        "overlay_position_y": 50,
-        "mobile_text_below": true
+        "overlay_position_y": 90,
+        "blog": "our-history",
+        "post_limit": 3,
+        "show_author": false,
+        "show_date": false,
+        "show_tags": false,
+        "show_featured_products": false
       }
     },
-    "image_with_text_MGw3nP": {
-      "type": "image-with-text",
-      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
-      "settings": {
-        "image": "shopify://shop_images/lulu-cheng.png",
-        "image_link": "",
-        "image_size": "30",
-        "image_position": "left",
-        "title": "MEET THE TEAM  BITTY BAO CO-FOUNDER",
-        "text": "<h5>LULU CHENG</h5><p>Meet Lulu; a wife, mom of 2 bitty babes, former public school teacher, with her newest title - Bitty Bao Boss. Since her bitty babes were born, Lulu has worked hard to embed Chinese language and culture into everything that they do.  Lulu’s struggle to find cute bilingual Chinese books for her kids’ bedtime soon evolved into a #bigbittydream to make Chinese board books of her own for families just like hers.  As a native Mandarin speaker raising her children in an English prevalent world and extended family, Lulu has a passion for creating products that can support every adult in the household regardless of their own second language fluency level.</p>",
-        "button_label": "Meet Lulu",
-        "button_link": "",
-        "url_style": "button_2",
-        "enlarge_title": false,
-        "enlarge_text": false,
-        "text_alignment": "left",
-        "color_text": "#333333",
-        "color_bg": "#ff92c5",
-        "gradient_bg": ""
-      }
-    },
-    "image_with_text_DbzcLq": {
-      "type": "image-with-text",
-      "custom_css": ["h2 {font-family: Delius Unicase, sans-serif;}"],
-      "settings": {
-        "image": "shopify://shop_images/Leacy.png",
-        "image_link": "",
-        "image_size": "30",
-        "image_position": "left",
-        "title": "MEET THE TEAM  BITTY BAO CO-FOUNDER",
-        "text": "<h5>LACEY BENARD</h5><p>A firewife, mom of 2 bitty babes, with over a decade of service as a public school educator and administrator, and now the other half of the dynamic Bitty Bao Duo - meet Lacey.  As an American-Born-Chinese woman, raised without the gift of Chinese as a second language, Lacey is hoping to now prioritize language acquisition for her own bitty babes through bilingual books, cultural events, and their school district’s Mandarin dual immersion program.  Knowing first-hand how challenging it can be to find resources to support language acquisition at home, Lacey finds passion in creating and dreaming up products to support and inspire families like hers.</p>",
-        "button_label": "Meet Leacy",
-        "button_link": "",
-        "url_style": "button_2",
-        "enlarge_title": false,
-        "enlarge_text": false,
-        "text_alignment": "left",
-        "color_text": "#333333",
-        "color_bg": "#ff92c5",
-        "gradient_bg": ""
-      }
+    "promotional_images_b77yUc": {
+      "type": "promotional-images",
+      "blocks": {
+        "image_KEennF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categoria_Books.png",
+            "image_link": "shopify://pages/our-products",
+            "layout": "image_before",
+            "color_text": "#333333",
+            "color_bg": "#e0f8fa",
+            "button_background_color": "#63dee5",
+            "button_text_color": "#ffffff",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "",
+            "offer": "books",
+            "url_text": "Buy books",
+            "url": "",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "image_CdhVbD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categoria_Accesories.png",
+            "image_link": "shopify://pages/our-products",
+            "layout": "image_before",
+            "color_text": "#333333",
+            "color_bg": "#dfdcf6",
+            "button_background_color": "#857ce9",
+            "button_text_color": "#ffffff",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "",
+            "offer": "Gifts",
+            "url_text": "Buy gifts",
+            "url": "",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": ["image_KEennF", "image_CdhVbD"],
+      "settings": {}
     }
   },
   "order": [
@@ -179,8 +178,7 @@
     "image_with_text_d38gVw",
     "image_with_text_n89WAk",
     "image_with_text_Ukgke9",
-    "video_BjcVM7",
-    "image_with_text_MGw3nP",
-    "image_with_text_DbzcLq"
+    "featured_blog_rDaajQ",
+    "promotional_images_b77yUc"
   ]
 }

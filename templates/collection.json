@@ -17,9 +17,7 @@
           }
         }
       },
-      "block_order": [
-        "collection_7YzdmQ"
-      ],
+      "block_order": ["collection_7YzdmQ"],
       "settings": {
         "enable_feature_header": false,
         "facet_color": "#EFF5F5",
@@ -36,7 +34,5 @@
       }
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main"]
 }

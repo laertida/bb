@@ -5,30 +5,279 @@
       "blocks": {
         "name": {
           "type": "name_input",
-          "settings": {
-          }
+          "settings": {}
         },
         "email": {
           "type": "email_input",
-          "settings": {
-          }
+          "settings": {}
         },
         "message": {
           "type": "message_input",
+          "settings": {}
+        }
+      },
+      "block_order": ["name", "email", "message"],
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center",
+        "use_columns": true
+      }
+    },
+    "scrolling_banner_nr4i4g": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_VYTRaB": {
+          "type": "text",
           "settings": {
+            "text": "DISCOVER THE MAGIC!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "shopify://collections/books",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
           }
         }
       },
-      "block_order": [
-        "name",
-        "email",
-        "message"
-      ],
+      "block_order": ["text_VYTRaB"],
       "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "image_with_text_rrAXVQ": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Submissions.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "SUBMISSIONS",
+        "text": "<p>Dream of one day becoming a Bitty Bao author or illustrator?  We are growing and we want you to grow with us!</p><p>Do you have a children's book idea that you know the world needs to read? Is your artwork special and unique and just waiting to be paired with the perfect story? Send it our way!</p><p>Before submitting your manuscript or art samples, please read the following guidelines carefully. </p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#333333",
+        "color_bg": "#dfdcf6",
+        "gradient_bg": ""
+      }
+    },
+    "rich_text_URUBdf": {
+      "type": "rich-text",
+      "custom_css": [".large-section {padding-bottom: 0; paddign-top: 0;}"],
+      "settings": {
+        "title": "",
+        "text": "<p>Bitty Bao publishes children’s books that celebrate multicultural voices and stories. We are currently accepting submissions for fiction and nonfiction book projects for children ages 0-8 years old.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "collapsible_tabs_MVhX9j": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_cHcGwe": {
+          "type": "question",
+          "settings": {
+            "title": "Guidelines",
+            "answer": "<ul><li>We prefer to receive children's book submissions and illustrations digitally by email. Absolutely no in-person submissions will be accepted. </li><li>If you have a story idea and manuscript but no artwork to include, don’t worry!  If signed, we will pair you up with one of our amazing illustrators!</li><li>Include your complete contact information with your submission (personal email and phone number).</li><li>If you have a literary agent, please note that along with their contact information upon submission.</li><li>If we are interested in your submission, you can expect to hear from us within 3 months after we receive your submission. We will not respond to any unsolicited submissions unless we are interested in publishing it.</li></ul>"
+          }
+        },
+        "question_xMAkq9": {
+          "type": "question",
+          "settings": {
+            "title": "Where to send your propousal?",
+            "answer": "<p>You can send your proposal, manuscripts, and art portfolio images for consideration as email attachments to: bittybao@gmail.com</p><p>We do not track receipt of submissions at this time; therefore we will not be able to give you confirmation that your materials have been received.</p><p>By submitting your manuscript and/or artwork you acknowledge that because of our position in the publishing industry we receive numerous solicited and unsolicited submissions of ideas, formats, stories, illustrations, suggestions and the like, and that many such submissions heretofore or hereafter received can be similar to or identical to those being developed by us or our employees or to those otherwise available to us. </p><p>You acknowledge that no contractual relationship now exists between you and Bitty Bao, and you further acknowledge that no such relationships are established between you and Bitty Bao by reason of you submitting your material.</p>"
+          }
+        }
+      },
+      "block_order": ["question_cHcGwe", "question_xMAkq9"],
+      "settings": {
+        "title": "How to apply?"
+      }
+    },
+    "scrolling_banner_xn9wjK": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_pLqaak": {
+          "type": "text",
+          "settings": {
+            "text": "DISCOVER THE MAGIC!",
+            "use_custom_color": false,
+            "color": "#230051",
+            "font": "heading",
+            "link": "shopify://collections/books",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": ["text_pLqaak"],
+      "settings": {
+        "text_size": 50,
+        "vertical_padding": 20,
+        "full_width": false,
+        "speed": 14,
+        "direction": "left",
+        "space": 50,
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "text_button": "Shop Now!"
+      }
+    },
+    "featured_blog_ijbYB6": {
+      "type": "featured-blog",
+      "settings": {
+        "heading_image": "shopify://shop_images/OurEvents-imagen2.png",
+        "title": "Upcoming Events",
+        "description": "What's next?",
+        "color_overlay_bg": "#f5c346",
+        "overlay_opacity": 100,
+        "color_overlay_text": "#333333",
+        "show_view_all": true,
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 100,
+        "blog": "news",
+        "post_limit": 3,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": true,
+        "show_featured_products": true
+      }
+    },
+    "image_with_text_overlay_emeCCx": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2024-10-22_at_19.09.09.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 420,
+        "height_mobile": 300,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 46,
+        "overlay_position_y": 45,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "newsletter_EUEXq8": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our bitty mailing list!",
+        "section_subtitle": "<p>Let’s stay connected! Join our subscriber list so you never miss a new product launch, flash sale and special promotion, or local pop-up event announcement!</p>",
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffdf6a",
+        "gradient_bg": "",
+        "button_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false
+      }
+    },
+    "image_with_text_overlay_9AGFX7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Map.png",
+        "image_link": "https://www.bittybao.com/store-locator",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": -5,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Find Your Nearest Shop",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "scrolling_banner_nr4i4g",
+    "image_with_text_rrAXVQ",
+    "rich_text_URUBdf",
+    "collapsible_tabs_MVhX9j",
+    "scrolling_banner_xn9wjK",
+    "featured_blog_ijbYB6",
+    "image_with_text_overlay_emeCCx",
+    "newsletter_EUEXq8",
+    "image_with_text_overlay_9AGFX7"
   ]
 }
