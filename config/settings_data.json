@@ -30,7 +30,7 @@
     "font_size_heading_int": 34,
     "line_height_heading": 1.2,
     "letter_spacing_heading": 0,
-    "uppercase_headings": false,
+    "uppercase_headings": true,
     "type_base_font": "nunito_n4",
     "font_size_body_int": 18,
     "line_height_body": 1.6,
@@ -85,7 +85,7 @@
             "type": "text",
             "settings": {
               "heading": "Talk about your store",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+              "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
               "enable_follow_on_shop": false
             }
           },
@@ -97,11 +97,7 @@
             }
           }
         },
-        "block_order": [
-          "menu",
-          "text",
-          "social"
-        ],
+        "block_order": ["menu", "text", "social"],
         "settings": {
           "small_linklist": "",
           "show_powered_by": true,
@@ -196,10 +192,7 @@
             }
           }
         },
-        "block_order": [
-          "banner-0",
-          "banner-1"
-        ],
+        "block_order": ["banner-0", "banner-1"],
         "settings": {
           "show_banner": false,
           "height": "fixed",
@@ -212,15 +205,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1232542678405107163": {
-        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -258,7 +248,7 @@
       "font_size_heading_int": 34,
       "line_height_heading": 1.2,
       "letter_spacing_heading": 0,
-      "uppercase_headings": false,
+      "uppercase_headings": true,
       "type_base_font": "nunito_n4",
       "font_size_body_int": 18,
       "line_height_body": 1.6,
@@ -302,25 +292,18 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "social": {
               "type": "social",
-              "settings": {
-              }
+              "settings": {}
             }
           },
-          "block_order": [
-            "menu",
-            "text",
-            "social"
-          ],
+          "block_order": ["menu", "text", "social"],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -361,7 +344,7 @@
       "type_heading_font": "questrial_n4",
       "line_height_heading": 1.3,
       "letter_spacing_heading": 25,
-      "uppercase_headings": false,
+      "uppercase_headings": true,
       "type_base_font": "questrial_n4",
       "font_size_body_int": 16,
       "line_height_body": 1.5,
@@ -409,25 +392,18 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "social": {
               "type": "social",
-              "settings": {
-              }
+              "settings": {}
             }
           },
-          "block_order": [
-            "menu",
-            "text",
-            "social"
-          ],
+          "block_order": ["menu", "text", "social"],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -468,14 +444,14 @@
       "font_size_heading_int": 34,
       "line_height_heading": 1.2,
       "letter_spacing_heading": 0,
-      "uppercase_headings": false,
+      "uppercase_headings": true,
       "type_base_font": "poppins_n3",
       "font_size_body_int": 16,
       "line_height_body": 1.5,
       "letter_spacing_body": 0,
       "type_nav_font": "poppins_n3",
       "font_size_nav_int": 16,
-      "letter_spacing_nav": 0,
+      "letter_spacing_nav": -0.05,
       "type_logo_font": "serif",
       "font_size_logo_int": 24,
       "uppercase_product_titles": false,
@@ -513,25 +489,18 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "social": {
               "type": "social",
-              "settings": {
-              }
+              "settings": {}
             }
           },
-          "block_order": [
-            "menu",
-            "text",
-            "social"
-          ],
+          "block_order": ["menu", "text", "social"],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,
@@ -572,7 +541,7 @@
       "font_size_heading_int": 34,
       "line_height_heading": 1.1,
       "letter_spacing_heading": 0,
-      "uppercase_headings": false,
+      "uppercase_headings": true,
       "type_base_font": "archivo_narrow_n4",
       "font_size_body_int": 18,
       "line_height_body": 1.5,
@@ -618,25 +587,18 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             },
             "social": {
               "type": "social",
-              "settings": {
-              }
+              "settings": {}
             }
           },
-          "block_order": [
-            "menu",
-            "text",
-            "social"
-          ],
+          "block_order": ["menu", "text", "social"],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,
