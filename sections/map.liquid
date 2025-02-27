@@ -1,17 +1,17 @@
 {%- liquid
-  assign display_map = false
-  assign onboarding = false
-  assign bg_image = section.settings.background_image
+assign display_map = false
+assign onboarding = false
+assign bg_image = section.settings.background_image
 
-  if section.settings.api_key == blank and bg_image == blank
-    assign onboarding = true
-  endif
-  if section.settings.api_key != blank and section.settings.map_address
-    assign display_map = true
-  endif
+if section.settings.api_key == blank and bg_image == blank
+assign onboarding = true
+endif
+if section.settings.api_key != blank and section.settings.map_address
+assign display_map = true
+endif
 -%}
 
-<div class="relative container container--no-mobile-padding large-row">
+<div  class="relative container container--no-mobile-padding large-row">
   {% style %}
     .section-{{ section.id }} .map-section__background-wrapper {
       height: {{ section.settings.height_mobile }}px;
@@ -30,12 +30,12 @@
   {% endstyle %}
 
   <div class="page-width map-section section-{{ section.id }}
-      {% if display_map %}map-section--display-map{% endif %}
-      {% if onboarding == true %}map-section--onboarding{% endif %}"
-      data-section-id="{{ section.id }}"
-      data-section-type="map"
-      data-api-key="{{ section.settings.api_key }}"
-      data-map-style="{{ section.settings.map_style }}">
+       {% if display_map %}map-section--display-map{% endif %}
+       {% if onboarding == true %}map-section--onboarding{% endif %}"
+       data-section-id="{{ section.id }}"
+       data-section-type="map"
+       data-api-key="{{ section.settings.api_key }}"
+       data-map-style="{{ section.settings.map_style }}">
     <div class="map-section__background-wrapper global-border-radius map-section__wrapper">
       {% if bg_image.src != blank %}
         <div class="map-section__image">

@@ -117,7 +117,7 @@
         "image_size": "30",
         "image_position": "left",
         "title": "WHY BITTY BAO?",
-        "text": "<p>For people seeking to learn language with anappreciation for culture, Bitty Bao is the go-tobrand for bilingual books and cultural toys that aremeticulously created with authenticity in mind.<br/>Knowing that bilingualism is the key to a better world, Bitty Bao aims to support strengthening family bondsand cultural understanding through reading and play.</p>",
+        "text": "<p>For people seeking to learn language with an appreciation for culture, Bitty Bao is the go-to brand for bilingual books and cultural toys that are meticulously created with authenticity in mind.<br/>Knowing that bilingualism is the key to a better world, Bitty Bao aims to support strengthening family bonds and cultural understanding through reading and play.</p>",
         "button_label": "More about our Values",
         "button_link": "shopify://pages/new-about-us",
         "url_style": "button_1",
@@ -181,7 +181,7 @@
         "overlay_url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
-        "overlay_position_y": 80,
+        "overlay_position_y": 100,
         "blog": "bitty-books",
         "post_limit": 3,
         "show_author": false,
@@ -340,6 +340,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }

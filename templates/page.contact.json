@@ -105,7 +105,7 @@
         "question_xMAkq9": {
           "type": "question",
           "settings": {
-            "title": "Where to send your propousal?",
+            "title": "Where to send your proposal?",
             "answer": "<p>You can send your proposal, manuscripts, and art portfolio images for consideration as email attachments to: bittybao@gmail.com</p><p>We do not track receipt of submissions at this time; therefore we will not be able to give you confirmation that your materials have been received.</p><p>By submitting your manuscript and/or artwork you acknowledge that because of our position in the publishing industry we receive numerous solicited and unsolicited submissions of ideas, formats, stories, illustrations, suggestions and the like, and that many such submissions heretofore or hereafter received can be similar to or identical to those being developed by us or our employees or to those otherwise available to us. </p><p>You acknowledge that no contractual relationship now exists between you and Bitty Bao, and you further acknowledge that no such relationships are established between you and Bitty Bao by reason of you submitting your material.</p>"
           }
         }
@@ -159,7 +159,7 @@
         "enlarge_title": false,
         "enlarge_text": false,
         "overlay_position_y": 100,
-        "blog": "news",
+        "blog": "upcoming-events",
         "post_limit": 3,
         "show_author": false,
         "show_date": true,

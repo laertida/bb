@@ -1,4 +1,4 @@
-<div class="relative container container--no-mobile-padding large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="image-with-text">
+<div id="{{  section.settings.title | downcase | replace: " ", "-" }}" class="relative container container--no-mobile-padding large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="image-with-text">
   {% liquid
     assign img_padding = section.settings.image_size
     assign img_padding_mob = section.settings.image_size | divided_by: 2

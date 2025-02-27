@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "date_formats": {
     "date_time_long": "%d %B, %Y %k:%M",
@@ -75,7 +84,7 @@
       "login_form_password_label": "Mot de passe",
       "login_form_password_placeholder": "Votre mot de passe",
       "login_form_submit": "Entrer",
-      "admin_link_html": "Êtes-vous le propriétaire de la boutique ? <a href=\"\/admin\">Connectez-vous ici<\/a>."
+      "admin_link_html": "Êtes-vous le propriétaire de la boutique ? <a href=\"/admin\">Connectez-vous ici</a>."
     },
     "newsletter": {
       "success": "Merci de vous être inscrit !"
@@ -108,12 +117,12 @@
       "from_text": "À partir de",
       "on_sale": "En solde",
       "sold_out": "Épuisé",
-      "unit_price_separator": " \/ ",
+      "unit_price_separator": " / ",
       "regular_price": "Prix régulier",
       "shop_now": "Achetez maintenant",
       "view_in_space": "Afficher dans votre espace",
       "include_taxes": "Taxes incluses.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition<\/a> calculés lors du passage à la caisse.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés lors du passage à la caisse.",
       "reviews_link": {
         "one": "avis",
         "other": "avis"
@@ -146,7 +155,7 @@
     "errors": {
       "address_error": "Vous ne trouvez pas cette adresse",
       "address_no_results": "Aucun résultat pour cette adresse",
-      "address_query_limit_html": "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">régime spécial<\/a>.",
+      "address_query_limit_html": "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un <a href=\"https://developers.google.com/maps/premium/usage-limits\">régime spécial</a>.",
       "auth_error": "Il y avait un problème authentifier votre compte Google Maps."
     }
   },
@@ -192,7 +201,7 @@
   "cart": {
     "terms": {
       "confirmation": "Vous devez accepter les termes et conditions avant de continuer.",
-      "agreement_html": "J'accepte les <a href=\"{{ terms_url }}\" target=\"_blank\">termes et la politique de remboursement<\/a>"
+      "agreement_html": "J'accepte les <a href=\"{{ terms_url }}\" target=\"_blank\">termes et la politique de remboursement</a>"
     },
     "general": {
       "quantity_too_high": "Vous ne pouvez en avoir que {{ quantity }} dans votre panier",
@@ -201,9 +210,9 @@
       "title": "Panier",
       "item_quantity": "Quantité de l'article",
       "remove": "Retirer",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais de port<\/a> calculés à la caisse.",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais de port</a> calculés à la caisse.",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés à la caisse",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais de port<\/a> calculés à la caisse",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais de port</a> calculés à la caisse",
       "taxes_and_shipping_at_checkout": "Taxes et frais de port calculés à la caisse",
       "subtotal": "Sous-total",
       "note": "Instructions spéciales pour la commande",
@@ -278,7 +287,7 @@
       "required_fields": "* Champs obligatoires",
       "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être affichés",
       "post": "Publier le commentaire",
-      "privacy_message_html": "Consultez notre <a href=\"{{ privacy_url }}\" target=\"_blank\">politique de confidentialité<\/a>"
+      "privacy_message_html": "Consultez notre <a href=\"{{ privacy_url }}\" target=\"_blank\">politique de confidentialité</a>"
     }
   },
   "customer": {
@@ -437,10 +446,10 @@
   },
   "store_availability": {
     "general": {
-      "pick_up_available_at_html": "Service de retrait disponible à <strong>{{ location_name }}<\/strong>",
+      "pick_up_available_at_html": "Service de retrait disponible à <strong>{{ location_name }}</strong>",
       "view_store_info": "Afficher les informations de la boutique",
       "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
-      "pick_up_unavailable_at_html": "Service de retrait actuellement indisponible à <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Service de retrait actuellement indisponible à <strong>{{ location_name }}</strong>",
       "miles": "mi",
       "kilometers": "km",
       "pick_up_available": "Service de retrait disponible",

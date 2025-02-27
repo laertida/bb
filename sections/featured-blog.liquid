@@ -1,6 +1,6 @@
 {%- assign blog = blogs[section.settings.blog] -%}
 
-<div class="relative container container--no-mobile-padding featured-blog large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="blog">
+<div id="{{ section.settings.title | downcase | replace: " ", "-" }}" class="relative container container--no-mobile-padding featured-blog large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="blog">
   {% style %}
     .section-{{ section.id }} .overlay {
       top: {{ section.settings.overlay_position_y }}%;

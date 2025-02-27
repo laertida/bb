@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_background": "#ffffff",
@@ -55,11 +64,16 @@
     "swatch_enabled_productpage": true,
     "swatch_option_name": "Color",
     "swatch_method": "standard",
+    "social_facebook_url": "https://www.facebook.com/bittybaobooks",
+    "social_youtube_url": "",
+    "social_instagram_url": "https://www.instagram.com/bitty.bao",
+    "social_pinterest_url": "https://mx.pinterest.com/bittybao/",
     "on_add_to_cart": "ajax",
     "search_type": "product",
     "enable_live_search": true,
     "live_search_show_price": true,
     "live_search_show_vendor": false,
+    "favicon": "shopify://shop_images/Bao_Eyebrow_1.png",
     "primary_btn_border": "#50248f",
     "secondary_btn_border": "#f9fafb",
     "announcement_bar_bck_color": "#43467f",
@@ -81,6 +95,13 @@
               "menu": "footer"
             }
           },
+          "link_list_XRptCk": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Legal",
+              "menu": "legal"
+            }
+          },
           "text": {
             "type": "text",
             "settings": {
@@ -97,7 +118,12 @@
             }
           }
         },
-        "block_order": ["menu", "text", "social"],
+        "block_order": [
+          "menu",
+          "link_list_XRptCk",
+          "text",
+          "social"
+        ],
         "settings": {
           "small_linklist": "",
           "show_powered_by": true,
@@ -192,7 +218,10 @@
             }
           }
         },
-        "block_order": ["banner-0", "banner-1"],
+        "block_order": [
+          "banner-0",
+          "banner-1"
+        ],
         "settings": {
           "show_banner": false,
           "height": "fixed",
@@ -303,7 +332,11 @@
               "settings": {}
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -403,7 +436,11 @@
               "settings": {}
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": false,
@@ -500,7 +537,11 @@
               "settings": {}
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,
@@ -598,7 +639,11 @@
               "settings": {}
             }
           },
-          "block_order": ["menu", "text", "social"],
+          "block_order": [
+            "menu",
+            "text",
+            "social"
+          ],
           "settings": {
             "show_payment_icons": true,
             "sticky_footer": true,

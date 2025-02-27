@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -90,7 +99,9 @@
     },
     "product_list_rEXWer": {
       "type": "product-list",
-      "custom_css": ["h2 {font-family: Gaegu, sans-serif;}"],
+      "custom_css": [
+        "h2 {font-family: Gaegu, sans-serif;}"
+      ],
       "settings": {
         "title": "MORE PRODUCTS",
         "enlarge_title": true,
@@ -116,5 +127,10 @@
       }
     }
   },
-  "order": ["main", "recommendations", "product_list_rEXWer", "recent"]
+  "order": [
+    "main",
+    "recommendations",
+    "product_list_rEXWer",
+    "recent"
+  ]
 }

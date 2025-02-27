@@ -1,4 +1,4 @@
-<div class="container container--no-mobile-padding large-row full-width-image full-width-background section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="full-width-image">
+<div id="{{  section.settings.overlay_url_text_1 | downcase | replace: ' ', '-' }}"class="container container--no-mobile-padding large-row full-width-image full-width-background section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="full-width-image">
   {% style %}
     {%- if section.settings.height == 'fixed' -%}
       .section-{{ section.id }} .avoid-overlaps__mobile-container,

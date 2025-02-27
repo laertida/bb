@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,38 +14,31 @@
       "blocks": {
         "title_and_price": {
           "type": "title_and_price",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "type": {
           "type": "type",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "sharing": {
           "type": "sharing",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -48,18 +50,15 @@
         "description",
         "sharing"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "recommendations": {
       "type": "product-recommendations",
-      "settings": {
-      }
+      "settings": {}
     },
     "recent": {
       "type": "recently-viewed",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

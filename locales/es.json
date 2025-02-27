@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "date_formats": {
     "date_time_long": "%d de %B, %Y %k:%M",
@@ -75,7 +84,7 @@
       "login_form_password_label": "Contraseña",
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Ingresar",
-      "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"\/admin\">Regístrate aquí<\/a>"
+      "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\">Regístrate aquí</a>"
     },
     "newsletter": {
       "success": "Gracias por registrarte!"
@@ -108,12 +117,12 @@
       "from_text": "De",
       "on_sale": "En oferta",
       "sold_out": "Agotado",
-      "unit_price_separator": " \/ ",
+      "unit_price_separator": " / ",
       "regular_price": "Precio habitual",
       "shop_now": "Compra ahora",
       "view_in_space": "Ver en tu espacio",
       "include_taxes": "Impuesto incluido.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos.",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pagos.",
       "reviews_link": {
         "one": "testimonio",
         "other": "testimonios"
@@ -146,7 +155,7 @@
     "errors": {
       "address_error": "No se puede encontrar esa dirección",
       "address_no_results": "No results for that address",
-      "address_query_limit_html": "Se ha excedido el límite de uso de la API de Google . Considere la posibilidad de actualizar a un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plan Premium<\/a>.",
+      "address_query_limit_html": "Se ha excedido el límite de uso de la API de Google . Considere la posibilidad de actualizar a un <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plan Premium</a>.",
       "auth_error": "Hubo un problema de autenticación con su cuenta de Google Maps."
     }
   },
@@ -192,7 +201,7 @@
   "cart": {
     "terms": {
       "confirmation": "Debe aceptar los términos y condiciones antes de continuar.",
-      "agreement_html": "Estoy de acuerdo con los <a href=\"{{ terms_url }}\" target=\"_blank\">términos y la política de reembolso<\/a>"
+      "agreement_html": "Estoy de acuerdo con los <a href=\"{{ terms_url }}\" target=\"_blank\">términos y la política de reembolso</a>"
     },
     "general": {
       "quantity_too_high": "Solo puedes tener {{ quantity }} en tu carrito",
@@ -201,9 +210,9 @@
       "title": "Carrito de compra",
       "item_quantity": "Cantidad de artículo",
       "remove": "Quitar",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pagos.",
       "taxes_included_but_shipping_at_checkout": "En la pantalla de pagos se incluye el impuesto y se calculan los gastos de envío",
-      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pagos",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\">gastos de envío</a> se calculan en la pantalla de pagos",
       "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pagos",
       "subtotal": "Subtotal",
       "note": "Instrucciones especiales para el vendedor",
@@ -278,7 +287,7 @@
       "required_fields": "* Necesario",
       "moderated": "Por favor tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
       "post": "Publicar comentario",
-      "privacy_message_html": "Observe nuestra <a href=\"{{ privacy_url }}\" target=\"_blank\">política de privacidad<\/a>"
+      "privacy_message_html": "Observe nuestra <a href=\"{{ privacy_url }}\" target=\"_blank\">política de privacidad</a>"
     }
   },
   "customer": {
@@ -437,10 +446,10 @@
   },
   "store_availability": {
     "general": {
-      "pick_up_available_at_html": "Retiro disponible en <strong>{{ location_name }}<\/strong>",
+      "pick_up_available_at_html": "Retiro disponible en <strong>{{ location_name }}</strong>",
       "view_store_info": "Ver información de la tienda",
       "check_other_stores": "Verificar disponibilidad en otras tiendas",
-      "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <strong>{{ location_name }}</strong>",
       "miles": "mi",
       "kilometers": "km",
       "pick_up_available": "Retiro disponible",
